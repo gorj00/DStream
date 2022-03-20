@@ -9,15 +9,15 @@ const VideoGallery = () => {
   console.log(movies)
   return (
     <Row>
-        {movies.slice(0,30).map((movie, i) => (
-          <Col md="3" sm="6" xs="12">
-            <SingleVideoPoster 
-              key={i}
-              posterUrl={posters[i].poster}
-              views={movie.imdbVotes}
-            />
-          </Col>
-        ))}
+      { movies.slice(0,30).map((movie, i) => (
+        <Col md="3" sm="6" xs="12">
+          <SingleVideoPoster 
+            key={i}
+            posterUrl={posters[i].poster}
+            views={movie.imdbVotes}
+          />
+        </Col>
+      ))}
     </Row>
   )
 }

@@ -6,7 +6,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
-import VideoGallery from "views/streaming/VideoGallery"
+import routes from 'routes'
 
 const Content = () => {
   React.useEffect(() => {
@@ -16,7 +16,6 @@ const Content = () => {
       document.body.classList.toggle("index-page");
     };
   },[]);
-
   return (
     <>
       <IndexNavbar />
@@ -25,10 +24,13 @@ const Content = () => {
         <div className="main">
           <Container className="align-items-center">
             <Switch>
+            { routes.map((view, i) => (
               <Route
-                path="/video-gallery"
-                render={(props) => <VideoGallery {...props} />}
+                key={i}
+                path={view.route}
+                render={(props) => <view.component {...props} />}
               />
+            ))}
             </Switch>
           </Container>
         </div>
