@@ -1,24 +1,23 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import {
+  Button,
+  Collapse,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  UncontrolledDropdown,
+  NavbarBrand,
+  Navbar,
+  NavItem,
+  NavLink,
+  Nav,
+  Container,
+  Row,
+  Col,
+  UncontrolledTooltip,
+} from "reactstrap";
 
 export default function PageHeader() {
   return (
@@ -32,11 +31,29 @@ export default function PageHeader() {
       <div className="squares square7" />
       <Container>
         <div className="content-center brand">
-          <h1 className="h1-seo">BLK• React</h1>
+          <h1 className="h1-seo">DStream</h1>
           <h3 className="d-none d-sm-block">
-            A beautiful Design System for Bootstrap 4 (reactstrap) and React.
-            It's Free and Open Source.
+            Master thesis Dapp prototype of decentralized video straming and content production service
           </h3>
+          <Row className="justify-content-md-center">
+            <Col md="5">
+              <Button
+                className="nav-link d-none d-lg-block"
+                color="primary" size="lg"
+              >
+                <i className="tim-icons icon-spaceship" /> Sign Up
+              </Button>
+            </Col>
+            <Col md="5">
+              <Button
+                className="nav-link d-none d-lg-block"
+                color="default" size="lg"
+              >
+                <i className="tim-icons icon-cloud-download-93" /> Log In
+              </Button>
+            </Col>
+            
+          </Row>
         </div>
       </Container>
     </div>
