@@ -2,7 +2,7 @@
   "name": "dstream",
   "version": "1.0.0",
   "description": "Thesis dapp – decentralized video streaming and content production service",
-  "homepage": "https://gorj00.github.io/DStream",
+  "homepage": "/",
   "main": "index.js",
   "author": "Jan Gorol",
   "license": "UNLICENSED",

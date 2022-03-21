@@ -13,7 +13,7 @@ const VideoGallery = () => {
         <Col md="3" sm="6" xs="12">
           <SingleVideoPoster 
             key={i}
-            posterUrl={posters[i].poster}
+            posterUrl={movie.Images[0]}
             views={movie.imdbVotes}
           />
         </Col>

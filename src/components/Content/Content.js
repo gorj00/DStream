@@ -1,41 +1,39 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
-import { Container } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import ContentNavbar from "components/Navbars/ContentNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
 import routes from 'routes'
 
 const Content = () => {
-  React.useEffect(() => {
-    document.body.classList.toggle("index-page");
-    // Specify how to clean up after this effect:
-    return function cleanup() {
-      document.body.classList.toggle("index-page");
-    };
-  },[]);
+
   return (
     <>
-      <IndexNavbar />
-      <div className="wrapper">
-        <PageHeader />
+      <ContentNavbar />
+      <div className="wrapper index-page">
+
+        {/* <PageHeader /> */}
         <div className="main">
-          <Container className="align-items-center">
-            <Switch>
-            { routes.map((view, i) => (
-              <Route
-                key={i}
-                path={view.route}
-                render={(props) => <view.component {...props} />}
-              />
-            ))}
-            </Switch>
+          <Container className="align-items-center" style={{zIndex: 1000}}>
+            <Suspense fallback={<div>Loading</div>}>
+              <Switch>
+              { routes.map((view, i) => (
+                <Route
+                  key={i}
+                  path={view.route}
+                  render={(props) => <view.component {...props} />}
+                />
+              ))}
+              </Switch>
+            </Suspense>
           </Container>
         </div>
-        <Footer />
+
       </div>
+      <Footer />
     </>
   );
 }

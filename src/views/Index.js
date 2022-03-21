@@ -1,7 +1,7 @@
 import React from "react";
 
 // core components
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import ContentNavbar from "components/Navbars/ContentNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
@@ -28,7 +28,7 @@ export default function Index() {
   },[]);
   return (
     <>
-      <IndexNavbar />
+      <ContentNavbar />
       <div className="wrapper">
         <PageHeader />
         <div className="main">
