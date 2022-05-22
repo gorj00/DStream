@@ -5,7 +5,7 @@ const SingleVideoPoster = ({
 }) => {
   return (
     <>
-      <div className="thumbnail">
+      <div className="thumbnail pr-1 pb-2">
           <a href="#"> <img src={`https://image.tmdb.org/t/p/w500/${posterUrl}`} alt="" width="270" /></a>
       </div>
     </>
