@@ -3,7 +3,7 @@ import React from 'react'
 const SquaresBackground = () => {
   return (
     <div className="page-header header-filter squares-background">
-          <img
+          {/* <img
             alt="..."
             className="dots"
             src={require("assets/img/dots.png").default}
@@ -12,7 +12,7 @@ const SquaresBackground = () => {
             alt="..."
             className="path"
             src={require("assets/img/path4.png").default}
-          />
+          /> */}
       <div className="squares square1" />
       <div className="squares square2" />
       <div className="squares square3" />
