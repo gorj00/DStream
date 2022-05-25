@@ -1,25 +1,15 @@
 import React from "react";
-
-// reactstrap components
 import {
   Button,
-  Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  NavbarBrand,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
+import { useAuth } from '../../hooks/useAuth'
 
 export default function PageHeader() {
+  const { login } = useAuth();
+
   return (
     <div className="page-header header-filter">
       <div className="squares square1" />
@@ -36,22 +26,23 @@ export default function PageHeader() {
             Master thesis Dapp prototype of decentralized video straming and content production service
           </h3>
           <Row className="justify-content-md-center">
-            <Col md="5">
+            <Col md="7">
               <Button
                 className="nav-link d-none d-lg-block"
                 color="primary" size="lg"
+                onClick={login}
               >
-                <i className="tim-icons icon-spaceship" /> Sign Up
+                <i className="tim-icons icon-spaceship" /> Log In with Metamask
               </Button>
             </Col>
-            <Col md="5">
+            {/* <Col md="5">
               <Button
                 className="nav-link d-none d-lg-block"
                 color="default" size="lg"
               >
                 <i className="tim-icons icon-cloud-download-93" /> Log In
               </Button>
-            </Col>
+            </Col> */}
             
           </Row>
         </div>

@@ -37,7 +37,9 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.1",
     "reactstrap": "8.7.1",
-    "web-vitals": "1.0.1"
+    "web-vitals": "1.0.1",
+    "web3": "^1.7.3",
+    "web3modal": "^1.9.7"
   },
   "optionalDependencies": {
     "jquery": "3.5.1",
