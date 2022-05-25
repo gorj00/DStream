@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {  tmdb } from './data-mock'
 import './gallery.css'
 import classnames from "classnames"
@@ -19,10 +19,29 @@ import { Row, Col, Container, Button,   TabContent,
   InputGroupText,
 } from 'reactstrap'
 import SquaresBackground from '../../../components/Backgrounds/SquaresBackground'
-
+import SingleVideoModal from '../../../components/Modals/SingleVideoModal'
 
 const VideoGallery = () => {
   const [iconTabs, setIconsTabs] = React.useState(1);
+  const videoDetailModalDefVal = {
+    show: false,
+    picture: null,
+    info: null,
+  };
+  const [videoDetailModal, setVideoDetailModal] = useState(videoDetailModalDefVal);
+
+  const closeVideoDetailModal = () => {
+    setVideoDetailModal(videoDetailModalDefVal)
+  }
+
+  const showVideoDetailModal = (picture, info) => {
+    setVideoDetailModal({
+      show: true,
+      picture,
+      info,
+    })
+  }
+
   const genres = ['Action', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Romance', 'Thriller', 'Western'];
   return (
     <>
@@ -122,6 +141,10 @@ const VideoGallery = () => {
                     <SingleVideoPoster
                       key={i}
                       posterUrl={movie.poster_path}
+                      showInfo={showVideoDetailModal}
+                      backdropUrl={movie.backdrop_path}
+                      title={movie.title}
+                      description={movie.overview}
                       // views={movie.imdbVotes}
                     />
                   </Col>
@@ -129,6 +152,14 @@ const VideoGallery = () => {
               </Row>
             </Col>
           </Row>
+          { videoDetailModal.show && (
+            <SingleVideoModal 
+              show={videoDetailModal.show}
+              close={closeVideoDetailModal}
+              info={videoDetailModal.info}
+              picture={videoDetailModal.picture}
+            />
+          )}
         </Container>
       </div>
     </>
