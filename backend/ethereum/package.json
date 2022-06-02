@@ -1,4 +1,7 @@
 {
     "name": "@dstream/ethereum",
-    "version": "1.0.0"
-  }
+    "version": "1.0.0",
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.6.0"
+    }
+}
