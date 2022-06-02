@@ -11,4 +11,7 @@
     "url": "https://github.com/gorj00/DStream/issues"
   },
   "homepage": "https://github.com/gorj00/DStream#readme",
+  "devDependencies": {
+    "nx": "14.1.9"
+  }
 }
