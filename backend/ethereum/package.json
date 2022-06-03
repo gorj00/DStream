@@ -2,6 +2,15 @@
     "name": "@dstream/ethereum",
     "version": "1.0.0",
     "dependencies": {
+        "@graphprotocol/graph-ts": "^0.27.0",
         "@openzeppelin/contracts": "^4.6.0"
+    },
+    "scripts": {
+      "create": "graph create example --node https://api.thegraph.com/deploy/",
+      "create-local": "graph create example --node http://127.0.0.1:8020",
+      "codegen": "cd ./graph && graph codegen",
+      "build": "graph build",
+      "deploy": "graph deploy example --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+      "deploy-local": "graph deploy example --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020"
     }
 }

@@ -1,0 +1,6 @@
+type User @entity {
+  id: ID!
+  addr: String!
+  isLoggedIn: Boolean!
+  date: Int!
+}

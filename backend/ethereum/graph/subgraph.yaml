@@ -1,0 +1,26 @@
+specVersion: 0.0.4
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: User
+    network: goerli
+    source:
+      address: '0xE05b3Bf858d8bbAD0254B1a6Ea81D0731C821d56'
+      abi: User
+      startBlock: 4
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - User
+      abis:
+        - name: User
+          file: ../abis/User.json
+      eventHandlers:
+        - event: UserRegistered(address)
+          handler: handleRegistration
+        - event: UserLoginLog(address,bool,uint256)
+          handler: handleRegistration
+      file: ./mappings.ts

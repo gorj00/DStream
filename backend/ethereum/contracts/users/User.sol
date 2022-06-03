@@ -1,13 +1,16 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.14;
+pragma solidity >=0.6.0 <0.9.0;
 
 contract User {
   struct UserType {
       address addr;
       bool isLoggedIn;
+      uint date;
   }
 
   mapping(address => UserType) users;
+  event UserRegistered(address addr);
+  event UserLoginLog(address addr, bool isLoggedIn, uint date);
 
   function register(address _address) 
       public 
@@ -16,21 +19,34 @@ contract User {
     require(users[_address].addr != msg.sender);
     users[_address].addr = _address;
     users[_address].isLoggedIn = false;
+    users[_address].date = block.timestamp;
+    emit UserRegistered(_address);
     return true;
   }
 
-  function login(address _address)
-      public
-      returns (bool)
-  {
+  function login(address _address) public returns (bool) {
     require(users[_address].addr == msg.sender);
     users[_address].isLoggedIn = true;
-    return users[_address].isLoggedIn;
+    users[_address].date = block.timestamp;
+
+    emit UserLoginLog(
+      users[_address].addr,
+      users[_address].isLoggedIn,
+      users[_address].date
+    );
+    return true;
   }
 
   function logout(address _address) public returns (bool) {
-      require(users[_address].addr == msg.sender);
-      users[_address].isLoggedIn = false;
-      return true;
+    require(users[_address].addr == msg.sender);
+    users[_address].isLoggedIn = false;
+    users[_address].date = block.timestamp;
+
+    emit UserLoginLog(
+      users[_address].addr,
+      users[_address].isLoggedIn,
+      users[_address].date
+    );
+    return true;
   }
 }
