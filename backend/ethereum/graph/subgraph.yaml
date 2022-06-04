@@ -22,5 +22,5 @@ dataSources:
         - event: UserRegistered(address)
           handler: handleRegistration
         - event: UserLoginLog(address,bool,uint256)
-          handler: handleRegistration
+          handler: handleUserLoginLog
       file: ./mappings/user.mapping.ts
