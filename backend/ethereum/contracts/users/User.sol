@@ -5,12 +5,12 @@ contract User {
   struct UserType {
       address addr;
       bool isLoggedIn;
-      uint date;
+      uint256 date;
   }
 
   mapping(address => UserType) users;
   event UserRegistered(address addr);
-  event UserLoginLog(address addr, bool isLoggedIn, uint date);
+  event UserLoginLog(address addr, bool isLoggedIn, uint256 date);
 
   function register(address _address) 
       public 
