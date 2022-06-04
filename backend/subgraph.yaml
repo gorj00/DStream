@@ -6,7 +6,7 @@ dataSources:
     name: User
     network: goerli
     source:
-      address: '0xF1cF3b6B80d5F1f3d93726F3a21EF9FedDafE343'
+      address: '0x06188A435eec6CaF14e59BE4b8E29CF58f8cCC52'
       abi: User       # startBlock: 4
     mapping:
       kind: ethereum/events

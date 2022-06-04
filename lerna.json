@@ -1,8 +1,7 @@
 {
   "packages": [
     "./frontend",
-    "./backend/ethereum",
-    "./backend/subgraph"
+    "./backend"
   ],
   "npmClientArgs": [
     "--no-lockfile"
