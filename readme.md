@@ -12,3 +12,4 @@ npm run build
 
 cd dev/graph-node/docker 
 docker-compose up
+<!-- https://ethereum.stackexchange.com/questions/99409/failed-to-deploy-to-graph-node-ethereum-network-not-supported-by-registrar-mai -->

@@ -3,14 +3,15 @@
     "version": "1.0.0",
     "dependencies": {
         "@graphprotocol/graph-ts": "^0.27.0",
-        "@openzeppelin/contracts": "^4.6.0"
+        "@openzeppelin/contracts": "^4.6.0",
+        "chai": "^4.3.6"
     },
     "scripts": {
-      "create": "graph create example --node https://api.thegraph.com/deploy/",
-      "create-local": "graph create ethereum-graph --node http://127.0.0.1:8020",
-      "codegen": "graph codegen",
-      "build": "graph build",
-      "deploy": "graph deploy ethereum-graph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
-      "deploy-local": "graph deploy ethereum-graph --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020"
+        "create": "graph create example --node https://api.thegraph.com/deploy/",
+        "create-local": "graph create --node http://127.0.0.1:8020 gorj00/ethereum-graph",
+        "codegen": "graph codegen",
+        "build": "graph build",
+        "deploy": "graph deploy ethereum-graph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+        "deploy-local": "graph deploy --node http://127.0.0.1:8020 --ipfs http://127.0.0.1:5001 gorj00/ethereum-graph"
     }
 }
