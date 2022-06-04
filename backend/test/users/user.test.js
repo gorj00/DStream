@@ -1,5 +1,6 @@
 const User = artifacts.require("User");
 
-contract('User logs in', ([user1, user2]) => {
+contract('User registers, logs in, and logs out', ([user1, user2]) => {
   const UserContract = await User.deployed()
+  it('registers a user', )
 })
