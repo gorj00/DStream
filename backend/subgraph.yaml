@@ -6,7 +6,7 @@ dataSources:
     name: User
     network: mainnet # always mainnet
     source:
-      address: '0xB70ebddCdDdf757E4AEB81E1c09500450FDC9B6c'
+      address: '0x543dE159B7bF21F3Eaf2DDd772C43DCc9f67909e'
       abi: User       # startBlock: x
     mapping:
       kind: ethereum/events
