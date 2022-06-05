@@ -8,7 +8,7 @@ contract User {
       uint256 date;
   }
 
-  mapping(address => UserType) users;
+  mapping(address => UserType) public users;
   event UserRegistered(address addr);
   event UserLoginLog(address addr, bool isLoggedIn, uint256 date);
 
