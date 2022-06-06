@@ -6,7 +6,7 @@ dataSources:
     name: User
     network: mainnet
     source:
-      address: "0x543dE159B7bF21F3Eaf2DDd772C43DCc9f67909e"
+      address: "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab"
       abi: User
     mapping:
       kind: ethereum/events
