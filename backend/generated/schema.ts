@@ -60,12 +60,12 @@ export class User extends Entity {
     this.set("isLoggedIn", Value.fromBoolean(value));
   }
 
-  get date(): BigInt {
+  get date(): i32 {
     let value = this.get("date");
-    return value!.toBigInt();
+    return value!.toI32();
   }
 
-  set date(value: BigInt) {
-    this.set("date", Value.fromBigInt(value));
+  set date(value: i32) {
+    this.set("date", Value.fromI32(value));
   }
 }
