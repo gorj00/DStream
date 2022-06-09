@@ -1932,10 +1932,16 @@
       "links": {},
       "address": "0x79D8d1A3BAa3f2DF46788AD7E57A4Ba6e0d2c78b",
       "transactionHash": "0xfa6986778e19e246a4819e7043173e73ec40257c6562682cc286a81858adb0f7"
+    },
+    "1654790884725": {
+      "events": {},
+      "links": {},
+      "address": "0xb1f67bc66fDf79e861BA7d479Bf0dF5C7dbe1d2E",
+      "transactionHash": "0x555e69c335a20a50a273c45deda95f3e35c8409275e44625676d794e8e50a62e"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-09T06:07:26.032Z",
+  "updatedAt": "2022-06-09T17:05:06.444Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
