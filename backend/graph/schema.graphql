@@ -4,3 +4,11 @@ type User @entity {
   isLoggedIn: Boolean!
   date: Int!
 }
+
+type Video @entity {
+  id: ID!
+  ipfsCid: String!
+  dateCreated: Int!
+  uploader: String!
+  projectId: Int!
+}
