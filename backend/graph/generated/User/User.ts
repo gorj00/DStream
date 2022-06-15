@@ -54,9 +54,72 @@ export class UserRegistered__Params {
   }
 }
 
+export class User__usersResult {
+  value0: Address;
+  value1: boolean;
+  value2: BigInt;
+
+  constructor(value0: Address, value1: boolean, value2: BigInt) {
+    this.value0 = value0;
+    this.value1 = value1;
+    this.value2 = value2;
+  }
+
+  toMap(): TypedMap<string, ethereum.Value> {
+    let map = new TypedMap<string, ethereum.Value>();
+    map.set("value0", ethereum.Value.fromAddress(this.value0));
+    map.set("value1", ethereum.Value.fromBoolean(this.value1));
+    map.set("value2", ethereum.Value.fromUnsignedBigInt(this.value2));
+    return map;
+  }
+
+  getAddr(): Address {
+    return this.value0;
+  }
+
+  getIsLoggedIn(): boolean {
+    return this.value1;
+  }
+
+  getDate(): BigInt {
+    return this.value2;
+  }
+}
+
 export class User extends ethereum.SmartContract {
   static bind(address: Address): User {
     return new User("User", address);
+  }
+
+  users(param0: Address): User__usersResult {
+    let result = super.call("users", "users(address):(address,bool,uint256)", [
+      ethereum.Value.fromAddress(param0)
+    ]);
+
+    return new User__usersResult(
+      result[0].toAddress(),
+      result[1].toBoolean(),
+      result[2].toBigInt()
+    );
+  }
+
+  try_users(param0: Address): ethereum.CallResult<User__usersResult> {
+    let result = super.tryCall(
+      "users",
+      "users(address):(address,bool,uint256)",
+      [ethereum.Value.fromAddress(param0)]
+    );
+    if (result.reverted) {
+      return new ethereum.CallResult();
+    }
+    let value = result.value;
+    return ethereum.CallResult.fromValue(
+      new User__usersResult(
+        value[0].toAddress(),
+        value[1].toBoolean(),
+        value[2].toBigInt()
+      )
+    );
   }
 
   register(_address: Address): boolean {
