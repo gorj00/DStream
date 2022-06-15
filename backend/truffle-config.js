@@ -51,7 +51,7 @@ module.exports = {
     development: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
-     network_id: "*",       // Any network (default: none)
+     network_id: "5777",       // Any network (default: none)
     },
     matic: {
       provider: () => new HDWalletProvider('host wine clean chunk vendor girl forget mule sight beyond abandon now', `https://rpc-mumbai.maticvigil.com`),
