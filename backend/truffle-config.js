@@ -1,9 +1,10 @@
 // require('babel-register');
 // require('babel-polyfill');
+require('dotenv').config();
+// const HDWalletProvider = require('@truffle/hdwallet-provider');
+// const fs = require('fs');
+// const mnemonic = fs.readFileSync(".secret").toString().trim();
 // require('dotenv').config();
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-const fs = require('fs');
-const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -51,15 +52,15 @@ module.exports = {
     development: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
-     network_id: "15",       // Any network (default: none)
+     network_id: process.env.TRUFFLE_DEV_NETWORK_ID,       // Any network (default: none)
     },
-    matic: {
-      provider: () => new HDWalletProvider('host wine clean chunk vendor girl forget mule sight beyond abandon now', `https://rpc-mumbai.maticvigil.com`),
-      network_id: 80001,
-      confirmations: 2,
-      timeoutBlocks: 200,
-      skipDryRun: true
-    },
+    // matic: {
+    //   provider: () => new HDWalletProvider('host wine clean chunk vendor girl forget mule sight beyond abandon now', `https://rpc-mumbai.maticvigil.com`),
+    //   network_id: 80001,
+    //   confirmations: 2,
+    //   timeoutBlocks: 200,
+    //   skipDryRun: true
+    // },
     
     // An additional network, but with some advanced options…
     // advanced: {
@@ -97,6 +98,7 @@ module.exports = {
 
   contracts_directory: "./contracts/**/*.sol",
   contracts_build_directory: './abis/',
+  test_directory: './test/',
 
   // Configure your compilers
   compilers: {

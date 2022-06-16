@@ -26,6 +26,7 @@ contract User {
 
   function login(address _address) public returns (bool) {
     require(users[_address].addr == msg.sender);
+    require(users[_address].isLoggedIn == false);
     users[_address].isLoggedIn = true;
     users[_address].date = block.timestamp;
 
@@ -39,6 +40,7 @@ contract User {
 
   function logout(address _address) public returns (bool) {
     require(users[_address].addr == msg.sender);
+    require(users[_address].isLoggedIn == true);
     users[_address].isLoggedIn = false;
     users[_address].date = block.timestamp;
 
