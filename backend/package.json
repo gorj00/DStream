@@ -7,7 +7,8 @@
         "@truffle/hdwallet-provider": "^2.0.8",
         "chai": "^4.3.6",
         "chai-as-promised": "^7.1.1",
-        "dotenv": "^16.0.1"
+        "dotenv": "^16.0.1",
+        "ipfs-core": "^0.15.2"
     },
     "scripts": {
         "create": "graph create example --node https://api.thegraph.com/deploy/",

@@ -1,10 +1,12 @@
 {
   "packages": [
     "./frontend",
-    "./backend"
+    "./backend",
+    "./dev"
   ],
   "npmClientArgs": [
     "--no-lockfile"
   ],
-  "version": "independent"
+  "version": "independent",
+  "useWorkspaces": true
 }

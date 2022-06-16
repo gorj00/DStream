@@ -14,5 +14,6 @@
     "homepage": "https://github.com/gorj00/DStream#readme",
     "devDependencies": {
       "lerna": "^5.0.0"
-    }
+    }, 
+    "workspaces": ["@dstream/ethereum, @dstream/frontend, @dstream/dev"]
   }
