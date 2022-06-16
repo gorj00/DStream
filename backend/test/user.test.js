@@ -6,15 +6,15 @@ const abi = require('../abis/User.json').abi;
 contract('User registers, logs in, and logs out', ([user1, user2, user3]) => {
   let UserContract
   before(async () => {
-    UserContract = await User.deployed()
+    UserContract = await User.at('0xCfEB869F69431e42cdB54A4F4f105C19C080A601')
     console.log('address xx ', UserContract.address)
   })
   it('registers a user', async () => {
     // // await UserContract.
     // // console.log(UserContract)
     // const acco
-    const registrationResult = await UserContract.register(user3)/* .send({ from: user2 }) */
-    const login = await UserContract.users(user3)/* .send({ from: user2 }) */
+    const registrationResult = await UserContract.register(user3, { from: user3 })/* .send({ from: user2 }) */
+    const login = await UserContract.users(user1)/* .send({ from: user2 }) */
     // const users = UserContract.users(user1)
     // console.log(registrationResult.logs[0], registrationResult.logs[0].args)
     // const contract = await new web3.eth.Contract(abi, '0xB70ebddCdDdf757E4AEB81E1c09500450FDC9B6c')
@@ -31,9 +31,9 @@ contract('User registers, logs in, and logs out', ([user1, user2, user3]) => {
     // // await UserContract.
     // // console.log(UserContract)
     // const acco
-    const user = await UserContract.users(user1)
-    console.log(user)
-    const login = await UserContract.login(user1, { from: user1 })/* .send({ from: user2 }) */
+    const user = await UserContract.users(user3)
+    console.log(user3)
+    const login = await UserContract.login(user3, { from: user3 })/* .send({ from: user2 }) */
     // const users = UserContract.users(user1)
     // console.log(registrationResult.logs[0], registrationResult.logs[0].args)
     // const contract = await new web3.eth.Contract(abi, '0xB70ebddCdDdf757E4AEB81E1c09500450FDC9B6c')

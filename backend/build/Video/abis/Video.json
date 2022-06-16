@@ -1,0 +1,122 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "ipfsCid",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "dateCreated",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "uploader",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "projectId",
+        "type": "uint256"
+      }
+    ],
+    "name": "VideoEntryAdded",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "videos",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "ipfsCid",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "dateCreated",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "uploader",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "projectId",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [],
+    "name": "videosCount",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function",
+    "constant": true
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_ipfsCid",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "_uploader",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_projectId",
+        "type": "uint256"
+      }
+    ],
+    "name": "createVideoEntry",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

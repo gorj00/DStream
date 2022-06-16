@@ -6,7 +6,7 @@ dataSources:
     name: User
     network: mainnet # always mainnet
     source:
-      address: '0x788942d9eDB8104A96eC51ddD4f40063f9f228c2'
+      address: '0xCfEB869F69431e42cdB54A4F4f105C19C080A601'
       abi: User       # startBlock: x
     mapping:
       kind: ethereum/events
@@ -27,7 +27,7 @@ dataSources:
     name: Video
     network: mainnet # always mainnet
     source:
-      address: '0x788942d9eDB8104A96eC51ddD4f40063f9f228c2'
+      address: '0xC89Ce4735882C9F0f0FE26686c53074E09B0D550'
       abi: Video       # startBlock: x
     mapping:
       kind: ethereum/events

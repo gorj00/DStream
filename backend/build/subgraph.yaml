@@ -6,7 +6,7 @@ dataSources:
     name: User
     network: mainnet
     source:
-      address: "0x788942d9eDB8104A96eC51ddD4f40063f9f228c2"
+      address: "0xCfEB869F69431e42cdB54A4F4f105C19C080A601"
       abi: User
     mapping:
       kind: ethereum/events
@@ -21,5 +21,24 @@ dataSources:
         - event: UserRegistered(address)
           handler: handleRegistration
         - event: UserLoginLog(address,bool,uint256)
+          handler: handleUserLoginLog
+      file: User\User.wasm
+  - kind: ethereum/contract
+    name: Video
+    network: mainnet
+    source:
+      address: "0xC89Ce4735882C9F0f0FE26686c53074E09B0D550"
+      abi: Video
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Video
+      abis:
+        - name: Video
+          file: Video\abis\Video.json
+      eventHandlers:
+        - event: VideoEntryAdded(uint256,string,uint256,address,uint256)
           handler: handleUserLoginLog
       file: User\User.wasm
