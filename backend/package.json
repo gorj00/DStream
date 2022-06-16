@@ -5,10 +5,11 @@
         "@graphprotocol/graph-ts": "^0.27.0",
         "@openzeppelin/contracts": "^4.6.0",
         "@truffle/hdwallet-provider": "^2.0.8",
+        "blockstore-core": "^1.0.2",
         "chai": "^4.3.6",
         "chai-as-promised": "^7.1.1",
         "dotenv": "^16.0.1",
-        "ipfs-core": "^0.15.2"
+        "ipfs-core": "^0.14.3"
     },
     "scripts": {
         "create": "graph create example --node https://api.thegraph.com/deploy/",
@@ -17,5 +18,8 @@
         "build": "graph build",
         "deploy": "graph deploy ethereum-graph --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
         "deploy-local": "graph deploy --node http:///127.0.0.1:8020 --ipfs http://127.0.0.1:5001 dstream/ethereum-graph"
+    },
+    "devDependencies": {
+        "@babel/helper-compilation-targets": "^7.18.2"
     }
 }

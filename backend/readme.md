@@ -1,0 +1,1 @@
+ipfs-core must be 0.14.3 as of 0.15.0 the package is ESM only, the react may use a more receent version without an issue
