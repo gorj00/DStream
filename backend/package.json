@@ -2,6 +2,8 @@
     "name": "@dstream/ethereum",
     "version": "1.0.0",
     "dependencies": {
+        "@ffmpeg/core": "^0.10.0",
+        "@ffmpeg/ffmpeg": "^0.10.1",
         "@graphprotocol/graph-ts": "^0.27.0",
         "@openzeppelin/contracts": "^4.6.0",
         "@truffle/hdwallet-provider": "^2.0.8",
@@ -9,7 +11,9 @@
         "chai": "^4.3.6",
         "chai-as-promised": "^7.1.1",
         "dotenv": "^16.0.1",
-        "ipfs-core": "^0.14.3"
+        "ipfs-core": "^0.14.3",
+        "ipfs-http-client": "^56.0.3",
+        "tmp": "^0.2.1"
     },
     "scripts": {
         "create": "graph create example --node https://api.thegraph.com/deploy/",
