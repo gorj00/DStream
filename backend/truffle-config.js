@@ -99,7 +99,8 @@ module.exports = {
   contracts_directory: "./contracts/**/*.sol",
   contracts_build_directory: './abis/',
   // test_directory: './test/',
-  test_directory: './test/streaming/',
+  // test_directory: './test/streaming/',
+  test_directory: './test/crowdfunding/',
 
   // Configure your compilers
   compilers: {

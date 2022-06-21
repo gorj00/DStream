@@ -5531,15 +5531,15 @@
         965
       ],
       "Video": [
-        1745
+        1744
       ]
     },
-    "id": 1746,
+    "id": 1745,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1623,
+        "id": 1622,
         "literals": [
           "solidity",
           ">=",
@@ -5555,10 +5555,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/math/SafeMath.sol",
         "file": "@openzeppelin/contracts/utils/math/SafeMath.sol",
-        "id": 1624,
+        "id": 1623,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1746,
+        "scope": 1745,
         "sourceUnit": 966,
         "src": "73:57:9",
         "symbolAliases": [],
@@ -5571,9 +5571,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 1745,
+        "id": 1744,
         "linearizedBaseContracts": [
-          1745
+          1744
         ],
         "name": "Video",
         "nameLocation": "143:5:9",
@@ -5581,9 +5581,9 @@
         "nodes": [
           {
             "global": false,
-            "id": 1627,
+            "id": 1626,
             "libraryName": {
-              "id": 1625,
+              "id": 1624,
               "name": "SafeMath",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 965,
@@ -5592,7 +5592,7 @@
             "nodeType": "UsingForDirective",
             "src": "154:24:9",
             "typeName": {
-              "id": 1626,
+              "id": 1625,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "173:4:9",
@@ -5604,16 +5604,16 @@
           },
           {
             "canonicalName": "Video.VideoType",
-            "id": 1638,
+            "id": 1637,
             "members": [
               {
                 "constant": false,
-                "id": 1629,
+                "id": 1628,
                 "mutability": "mutable",
                 "name": "id",
                 "nameLocation": "213:2:9",
                 "nodeType": "VariableDeclaration",
-                "scope": 1638,
+                "scope": 1637,
                 "src": "208:7:9",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -5622,7 +5622,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 1628,
+                  "id": 1627,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "208:4:9",
@@ -5635,12 +5635,12 @@
               },
               {
                 "constant": false,
-                "id": 1631,
+                "id": 1630,
                 "mutability": "mutable",
                 "name": "ipfsCid",
                 "nameLocation": "229:7:9",
                 "nodeType": "VariableDeclaration",
-                "scope": 1638,
+                "scope": 1637,
                 "src": "222:14:9",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -5649,7 +5649,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 1630,
+                  "id": 1629,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "222:6:9",
@@ -5662,12 +5662,12 @@
               },
               {
                 "constant": false,
-                "id": 1633,
+                "id": 1632,
                 "mutability": "mutable",
                 "name": "dateCreated",
                 "nameLocation": "248:11:9",
                 "nodeType": "VariableDeclaration",
-                "scope": 1638,
+                "scope": 1637,
                 "src": "243:16:9",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -5676,7 +5676,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 1632,
+                  "id": 1631,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "243:4:9",
@@ -5689,12 +5689,12 @@
               },
               {
                 "constant": false,
-                "id": 1635,
+                "id": 1634,
                 "mutability": "mutable",
                 "name": "uploader",
                 "nameLocation": "274:8:9",
                 "nodeType": "VariableDeclaration",
-                "scope": 1638,
+                "scope": 1637,
                 "src": "266:16:9",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -5703,7 +5703,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 1634,
+                  "id": 1633,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "266:7:9",
@@ -5717,12 +5717,12 @@
               },
               {
                 "constant": false,
-                "id": 1637,
+                "id": 1636,
                 "mutability": "mutable",
                 "name": "projectId",
                 "nameLocation": "294:9:9",
                 "nodeType": "VariableDeclaration",
-                "scope": 1638,
+                "scope": 1637,
                 "src": "289:14:9",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -5731,7 +5731,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 1636,
+                  "id": 1635,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "289:4:9",
@@ -5746,19 +5746,19 @@
             "name": "VideoType",
             "nameLocation": "191:9:9",
             "nodeType": "StructDefinition",
-            "scope": 1745,
+            "scope": 1744,
             "src": "184:125:9",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "ef08523b",
-            "id": 1640,
+            "id": 1639,
             "mutability": "mutable",
             "name": "videosCount",
             "nameLocation": "327:11:9",
             "nodeType": "VariableDeclaration",
-            "scope": 1745,
+            "scope": 1744,
             "src": "315:23:9",
             "stateVariable": true,
             "storageLocation": "default",
@@ -5767,7 +5767,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 1639,
+              "id": 1638,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "315:4:9",
@@ -5781,23 +5781,23 @@
           {
             "constant": false,
             "functionSelector": "e6821bf5",
-            "id": 1645,
+            "id": 1644,
             "mutability": "mutable",
             "name": "videos",
             "nameLocation": "377:6:9",
             "nodeType": "VariableDeclaration",
-            "scope": 1745,
+            "scope": 1744,
             "src": "343:40:9",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
               "typeString": "mapping(uint256 => struct Video.VideoType)"
             },
             "typeName": {
-              "id": 1644,
+              "id": 1643,
               "keyType": {
-                "id": 1641,
+                "id": 1640,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
                 "src": "351:4:9",
@@ -5809,23 +5809,23 @@
               "nodeType": "Mapping",
               "src": "343:26:9",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                 "typeString": "mapping(uint256 => struct Video.VideoType)"
               },
               "valueType": {
-                "id": 1643,
+                "id": 1642,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 1642,
+                  "id": 1641,
                   "name": "VideoType",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1638,
+                  "referencedDeclaration": 1637,
                   "src": "359:9:9"
                 },
-                "referencedDeclaration": 1638,
+                "referencedDeclaration": 1637,
                 "src": "359:9:9",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_VideoType_$1638_storage_ptr",
+                  "typeIdentifier": "t_struct$_VideoType_$1637_storage_ptr",
                   "typeString": "struct Video.VideoType"
                 }
               }
@@ -5835,23 +5835,23 @@
           {
             "anonymous": false,
             "eventSelector": "bbdd07f84c9c5ef7565793f213b6960faa550667db74d123f39efb75e05ba07b",
-            "id": 1657,
+            "id": 1656,
             "name": "VideoEntryAdded",
             "nameLocation": "396:15:9",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1656,
+              "id": 1655,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1647,
+                  "id": 1646,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "id",
                   "nameLocation": "423:2:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1657,
+                  "scope": 1656,
                   "src": "418:7:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5860,7 +5860,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1646,
+                    "id": 1645,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "418:4:9",
@@ -5873,13 +5873,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1649,
+                  "id": 1648,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "ipfsCid",
                   "nameLocation": "434:7:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1657,
+                  "scope": 1656,
                   "src": "427:14:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5888,7 +5888,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1648,
+                    "id": 1647,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "427:6:9",
@@ -5901,13 +5901,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1651,
+                  "id": 1650,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "dateCreated",
                   "nameLocation": "448:11:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1657,
+                  "scope": 1656,
                   "src": "443:16:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5916,7 +5916,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1650,
+                    "id": 1649,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "443:4:9",
@@ -5929,13 +5929,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1653,
+                  "id": 1652,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "uploader",
                   "nameLocation": "469:8:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1657,
+                  "scope": 1656,
                   "src": "461:16:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5944,7 +5944,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1652,
+                    "id": 1651,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "461:7:9",
@@ -5958,13 +5958,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1655,
+                  "id": 1654,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "projectId",
                   "nameLocation": "484:9:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1657,
+                  "scope": 1656,
                   "src": "479:14:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -5973,7 +5973,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1654,
+                    "id": 1653,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "479:4:9",
@@ -5991,7 +5991,7 @@
           },
           {
             "body": {
-              "id": 1743,
+              "id": 1742,
               "nodeType": "Block",
               "src": "623:625:9",
               "statements": [
@@ -6003,17 +6003,17 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 1672,
+                        "id": 1671,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 1669,
+                          "id": 1668,
                           "name": "_uploader",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1661,
+                          "referencedDeclaration": 1660,
                           "src": "701:9:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -6024,7 +6024,7 @@
                         "operator": "==",
                         "rightExpression": {
                           "expression": {
-                            "id": 1670,
+                            "id": 1669,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -6035,7 +6035,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 1671,
+                          "id": 1670,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -6062,7 +6062,7 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 1668,
+                      "id": 1667,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -6076,7 +6076,7 @@
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 1673,
+                    "id": 1672,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6091,23 +6091,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1674,
+                  "id": 1673,
                   "nodeType": "ExpressionStatement",
                   "src": "693:32:9"
                 },
                 {
                   "expression": {
-                    "id": 1680,
+                    "id": 1679,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1675,
+                      "id": 1674,
                       "name": "videosCount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1640,
+                      "referencedDeclaration": 1639,
                       "src": "732:11:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6120,7 +6120,7 @@
                       "arguments": [
                         {
                           "hexValue": "31",
-                          "id": 1678,
+                          "id": 1677,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -6143,18 +6143,18 @@
                           }
                         ],
                         "expression": {
-                          "id": 1676,
+                          "id": 1675,
                           "name": "videosCount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1640,
+                          "referencedDeclaration": 1639,
                           "src": "746:11:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 1677,
+                        "id": 1676,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -6168,7 +6168,7 @@
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 1679,
+                      "id": 1678,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6189,13 +6189,13 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1681,
+                  "id": 1680,
                   "nodeType": "ExpressionStatement",
                   "src": "732:32:9"
                 },
                 {
                   "expression": {
-                    "id": 1687,
+                    "id": 1686,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6203,24 +6203,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 1682,
+                          "id": 1681,
                           "name": "videos",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1645,
+                          "referencedDeclaration": 1644,
                           "src": "773:6:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                             "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                           }
                         },
-                        "id": 1684,
+                        "id": 1683,
                         "indexExpression": {
-                          "id": 1683,
+                          "id": 1682,
                           "name": "videosCount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1640,
+                          "referencedDeclaration": 1639,
                           "src": "780:11:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -6234,18 +6234,18 @@
                         "nodeType": "IndexAccess",
                         "src": "773:19:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                          "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                           "typeString": "struct Video.VideoType storage ref"
                         }
                       },
-                      "id": 1685,
+                      "id": 1684,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "id",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1629,
+                      "referencedDeclaration": 1628,
                       "src": "773:22:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6255,11 +6255,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1686,
+                      "id": 1685,
                       "name": "videosCount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1640,
+                      "referencedDeclaration": 1639,
                       "src": "798:11:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6272,13 +6272,13 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1688,
+                  "id": 1687,
                   "nodeType": "ExpressionStatement",
                   "src": "773:36:9"
                 },
                 {
                   "expression": {
-                    "id": 1694,
+                    "id": 1693,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6286,24 +6286,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 1689,
+                          "id": 1688,
                           "name": "videos",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1645,
+                          "referencedDeclaration": 1644,
                           "src": "816:6:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                             "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                           }
                         },
-                        "id": 1691,
+                        "id": 1690,
                         "indexExpression": {
-                          "id": 1690,
+                          "id": 1689,
                           "name": "videosCount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1640,
+                          "referencedDeclaration": 1639,
                           "src": "823:11:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -6317,18 +6317,18 @@
                         "nodeType": "IndexAccess",
                         "src": "816:19:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                          "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                           "typeString": "struct Video.VideoType storage ref"
                         }
                       },
-                      "id": 1692,
+                      "id": 1691,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "ipfsCid",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1631,
+                      "referencedDeclaration": 1630,
                       "src": "816:27:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
@@ -6338,11 +6338,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1693,
+                      "id": 1692,
                       "name": "_ipfsCid",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1659,
+                      "referencedDeclaration": 1658,
                       "src": "846:8:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -6355,13 +6355,13 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 1695,
+                  "id": 1694,
                   "nodeType": "ExpressionStatement",
                   "src": "816:38:9"
                 },
                 {
                   "expression": {
-                    "id": 1702,
+                    "id": 1701,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6369,24 +6369,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 1696,
+                          "id": 1695,
                           "name": "videos",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1645,
+                          "referencedDeclaration": 1644,
                           "src": "861:6:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                             "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                           }
                         },
-                        "id": 1698,
+                        "id": 1697,
                         "indexExpression": {
-                          "id": 1697,
+                          "id": 1696,
                           "name": "videosCount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1640,
+                          "referencedDeclaration": 1639,
                           "src": "868:11:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -6400,18 +6400,18 @@
                         "nodeType": "IndexAccess",
                         "src": "861:19:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                          "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                           "typeString": "struct Video.VideoType storage ref"
                         }
                       },
-                      "id": 1699,
+                      "id": 1698,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "dateCreated",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1633,
+                      "referencedDeclaration": 1632,
                       "src": "861:31:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6422,7 +6422,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 1700,
+                        "id": 1699,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -6433,7 +6433,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 1701,
+                      "id": 1700,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -6452,13 +6452,13 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1703,
+                  "id": 1702,
                   "nodeType": "ExpressionStatement",
                   "src": "861:49:9"
                 },
                 {
                   "expression": {
-                    "id": 1709,
+                    "id": 1708,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6466,24 +6466,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 1704,
+                          "id": 1703,
                           "name": "videos",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1645,
+                          "referencedDeclaration": 1644,
                           "src": "917:6:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                             "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                           }
                         },
-                        "id": 1706,
+                        "id": 1705,
                         "indexExpression": {
-                          "id": 1705,
+                          "id": 1704,
                           "name": "videosCount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1640,
+                          "referencedDeclaration": 1639,
                           "src": "924:11:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -6497,18 +6497,18 @@
                         "nodeType": "IndexAccess",
                         "src": "917:19:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                          "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                           "typeString": "struct Video.VideoType storage ref"
                         }
                       },
-                      "id": 1707,
+                      "id": 1706,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "uploader",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1635,
+                      "referencedDeclaration": 1634,
                       "src": "917:28:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -6518,11 +6518,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1708,
+                      "id": 1707,
                       "name": "_uploader",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1661,
+                      "referencedDeclaration": 1660,
                       "src": "948:9:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -6535,13 +6535,13 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 1710,
+                  "id": 1709,
                   "nodeType": "ExpressionStatement",
                   "src": "917:40:9"
                 },
                 {
                   "expression": {
-                    "id": 1716,
+                    "id": 1715,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6549,24 +6549,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 1711,
+                          "id": 1710,
                           "name": "videos",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1645,
+                          "referencedDeclaration": 1644,
                           "src": "964:6:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                             "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                           }
                         },
-                        "id": 1713,
+                        "id": 1712,
                         "indexExpression": {
-                          "id": 1712,
+                          "id": 1711,
                           "name": "videosCount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1640,
+                          "referencedDeclaration": 1639,
                           "src": "971:11:9",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -6580,18 +6580,18 @@
                         "nodeType": "IndexAccess",
                         "src": "964:19:9",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                          "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                           "typeString": "struct Video.VideoType storage ref"
                         }
                       },
-                      "id": 1714,
+                      "id": 1713,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "projectId",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1637,
+                      "referencedDeclaration": 1636,
                       "src": "964:29:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6601,11 +6601,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1715,
+                      "id": 1714,
                       "name": "_projectId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1663,
+                      "referencedDeclaration": 1662,
                       "src": "996:10:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -6618,7 +6618,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1717,
+                  "id": 1716,
                   "nodeType": "ExpressionStatement",
                   "src": "964:42:9"
                 },
@@ -6628,24 +6628,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1719,
+                            "id": 1718,
                             "name": "videos",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1645,
+                            "referencedDeclaration": 1644,
                             "src": "1044:6:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                               "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                             }
                           },
-                          "id": 1721,
+                          "id": 1720,
                           "indexExpression": {
-                            "id": 1720,
+                            "id": 1719,
                             "name": "videosCount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1640,
+                            "referencedDeclaration": 1639,
                             "src": "1051:11:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -6659,18 +6659,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1044:19:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                            "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                             "typeString": "struct Video.VideoType storage ref"
                           }
                         },
-                        "id": 1722,
+                        "id": 1721,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "id",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1629,
+                        "referencedDeclaration": 1628,
                         "src": "1044:22:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -6680,24 +6680,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1723,
+                            "id": 1722,
                             "name": "videos",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1645,
+                            "referencedDeclaration": 1644,
                             "src": "1075:6:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                               "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                             }
                           },
-                          "id": 1725,
+                          "id": 1724,
                           "indexExpression": {
-                            "id": 1724,
+                            "id": 1723,
                             "name": "videosCount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1640,
+                            "referencedDeclaration": 1639,
                             "src": "1082:11:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -6711,18 +6711,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1075:19:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                            "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                             "typeString": "struct Video.VideoType storage ref"
                           }
                         },
-                        "id": 1726,
+                        "id": 1725,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "ipfsCid",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1631,
+                        "referencedDeclaration": 1630,
                         "src": "1075:27:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -6732,24 +6732,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1727,
+                            "id": 1726,
                             "name": "videos",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1645,
+                            "referencedDeclaration": 1644,
                             "src": "1111:6:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                               "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                             }
                           },
-                          "id": 1729,
+                          "id": 1728,
                           "indexExpression": {
-                            "id": 1728,
+                            "id": 1727,
                             "name": "videosCount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1640,
+                            "referencedDeclaration": 1639,
                             "src": "1118:11:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -6763,18 +6763,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1111:19:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                            "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                             "typeString": "struct Video.VideoType storage ref"
                           }
                         },
-                        "id": 1730,
+                        "id": 1729,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "dateCreated",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1633,
+                        "referencedDeclaration": 1632,
                         "src": "1111:31:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -6784,24 +6784,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1731,
+                            "id": 1730,
                             "name": "videos",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1645,
+                            "referencedDeclaration": 1644,
                             "src": "1151:6:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                               "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                             }
                           },
-                          "id": 1733,
+                          "id": 1732,
                           "indexExpression": {
-                            "id": 1732,
+                            "id": 1731,
                             "name": "videosCount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1640,
+                            "referencedDeclaration": 1639,
                             "src": "1158:11:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -6815,18 +6815,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1151:19:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                            "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                             "typeString": "struct Video.VideoType storage ref"
                           }
                         },
-                        "id": 1734,
+                        "id": 1733,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "uploader",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1635,
+                        "referencedDeclaration": 1634,
                         "src": "1151:28:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -6836,24 +6836,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 1735,
+                            "id": 1734,
                             "name": "videos",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1645,
+                            "referencedDeclaration": 1644,
                             "src": "1188:6:9",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1638_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_VideoType_$1637_storage_$",
                               "typeString": "mapping(uint256 => struct Video.VideoType storage ref)"
                             }
                           },
-                          "id": 1737,
+                          "id": 1736,
                           "indexExpression": {
-                            "id": 1736,
+                            "id": 1735,
                             "name": "videosCount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1640,
+                            "referencedDeclaration": 1639,
                             "src": "1195:11:9",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -6867,18 +6867,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1188:19:9",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_VideoType_$1638_storage",
+                            "typeIdentifier": "t_struct$_VideoType_$1637_storage",
                             "typeString": "struct Video.VideoType storage ref"
                           }
                         },
-                        "id": 1738,
+                        "id": 1737,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "projectId",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 1637,
+                        "referencedDeclaration": 1636,
                         "src": "1188:29:9",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -6909,18 +6909,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 1718,
+                      "id": 1717,
                       "name": "VideoEntryAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1657,
+                      "referencedDeclaration": 1656,
                       "src": "1020:15:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_string_memory_ptr_$_t_uint256_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (uint256,string memory,uint256,address,uint256)"
                       }
                     },
-                    "id": 1739,
+                    "id": 1738,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -6935,14 +6935,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1740,
+                  "id": 1739,
                   "nodeType": "EmitStatement",
                   "src": "1015:209:9"
                 },
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 1741,
+                    "id": 1740,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -6956,15 +6956,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 1667,
-                  "id": 1742,
+                  "functionReturnParameters": 1666,
+                  "id": 1741,
                   "nodeType": "Return",
                   "src": "1231:11:9"
                 }
               ]
             },
             "functionSelector": "a42d2c6b",
-            "id": 1744,
+            "id": 1743,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -6972,17 +6972,17 @@
             "nameLocation": "514:16:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1664,
+              "id": 1663,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1659,
+                  "id": 1658,
                   "mutability": "mutable",
                   "name": "_ipfsCid",
                   "nameLocation": "551:8:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1744,
+                  "scope": 1743,
                   "src": "537:22:9",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -6991,7 +6991,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 1658,
+                    "id": 1657,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "537:6:9",
@@ -7004,12 +7004,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1661,
+                  "id": 1660,
                   "mutability": "mutable",
                   "name": "_uploader",
                   "nameLocation": "569:9:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1744,
+                  "scope": 1743,
                   "src": "561:17:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -7018,7 +7018,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1660,
+                    "id": 1659,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "561:7:9",
@@ -7032,12 +7032,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1663,
+                  "id": 1662,
                   "mutability": "mutable",
                   "name": "_projectId",
                   "nameLocation": "585:10:9",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1744,
+                  "scope": 1743,
                   "src": "580:15:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -7046,7 +7046,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1662,
+                    "id": 1661,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "580:4:9",
@@ -7061,17 +7061,17 @@
               "src": "530:70:9"
             },
             "returnParameters": {
-              "id": 1667,
+              "id": 1666,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1666,
+                  "id": 1665,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1744,
+                  "scope": 1743,
                   "src": "617:4:9",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -7080,7 +7080,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1665,
+                    "id": 1664,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "617:4:9",
@@ -7094,14 +7094,14 @@
               ],
               "src": "616:6:9"
             },
-            "scope": 1745,
+            "scope": 1744,
             "src": "505:743:9",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 1746,
+        "scope": 1745,
         "src": "134:1119:9",
         "usedErrors": []
       }
@@ -7116,8 +7116,8 @@
     "15": {
       "events": {},
       "links": {},
-      "address": "0x96b6d99b882a432AE9285afB721BC11b88D1Dd4a",
-      "transactionHash": "0xedc6ccadcf99a41ab27a72bc5198c72fe4c707b6e2ca0cec5ecd8749c9ca2542"
+      "address": "0x507449A6c663869B4cad60A0Bc10c55b36750A70",
+      "transactionHash": "0x8410d9dc6c6cd85e5ad8a999fbb167c0ba653b97d20baf76d397dad47d86a84a"
     },
     "1655363887734": {
       "events": {},
@@ -7127,7 +7127,7 @@
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-21T15:02:31.240Z",
+  "updatedAt": "2022-06-21T15:23:31.689Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
