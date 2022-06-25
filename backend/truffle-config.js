@@ -2,6 +2,7 @@
 // require('babel-polyfill');
 require('dotenv').config();
 const HDWalletProvider = require('@truffle/hdwallet-provider');
+console.log(process.env.MNEMONIC)
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 // require('dotenv').config();
@@ -54,13 +55,14 @@ module.exports = {
      port: 8545,            // Standard Ethereum port (default: none)
      network_id: process.env.TRUFFLE_DEV_NETWORK_ID,       // Any network (default: none)
     },
-    // matic: {
-    //   provider: () => new HDWalletProvider('host wine clean chunk vendor girl forget mule sight beyond abandon now', `https://rpc-mumbai.maticvigil.com`),
-    //   network_id: 80001,
-    //   confirmations: 2,
-    //   timeoutBlocks: 200,
-    //   skipDryRun: true
-    // },
+    polygon_testnet: {
+      provider: () => new HDWalletProvider(process.env.MNEMONIC, `https://polygon-mumbai.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`),
+      network_id: 80001,
+      confirmations: 0,
+      timeoutBlocks: 200,
+      skipDryRun: true,
+      disableConfirmationListener: true,
+    },
     
     // An additional network, but with some advanced options…
     // advanced: {

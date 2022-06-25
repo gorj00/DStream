@@ -1,5 +1,5 @@
-const Crowdfunding = artifacts.require("Crowdfunding");
-// Crowdfunding includes Project
+const Video = artifacts.require("Video");
+
 module.exports = function (deployer) {
-  deployer.deploy(Crowdfunding);
+  deployer.deploy(Video);
 };
