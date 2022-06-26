@@ -41,10 +41,10 @@ contract DStreamInvestNFT is ERC721 {
     return low.mul(10 ** decimals) / high;
   }
 
-  function mintInvestNFT(
-    address to, uint projectId, uint contributions, uint total
-  ) internal {
-    require(msg.sender != address(this));
+  function safeMint(
+    address to, uint projectId, uint contributions , uint total 
+  ) external {
+    // require(msg.sender == address(0xb6477cbDB30a05Fb453f5eeE6004b7D08b5daF43));
     tokensCount = tokensCount.add(1);
     _safeMint(to, tokensCount);
 
@@ -70,8 +70,13 @@ contract DStreamInvestNFT is ERC721 {
     internal virtual override
   {
     super._afterTokenTransfer(from, to, tokenId);
-    sharesByTokenId[tokenId].owner = to;
-    emit OwnerChanged(tokenId, to);
+    if (
+      (sharesByTokenId[tokenId].owner != to) && 
+      (sharesByTokenId[tokenId].projectInvestorsRewardsShare != 0)
+      ) {
+      sharesByTokenId[tokenId].owner = to;
+      emit OwnerChanged(tokenId, to);
+    }
   }
 
 }

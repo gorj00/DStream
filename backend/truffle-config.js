@@ -20,6 +20,7 @@ module.exports = {
       timeoutBlocks: 200,
       skipDryRun: true,
       disableConfirmationListener: true,
+      gas: 90000000,
     },
   },
 
@@ -32,7 +33,8 @@ module.exports = {
   contracts_build_directory: './abis/',
   // test_directory: './test/',
   // test_directory: './test/streaming/',
-  test_directory: './test/crowdfunding/',
+  // test_directory: './test/crowdfunding/',
+  test_directory: './test/tokens/',
 
   // Configure your compilers
   compilers: {

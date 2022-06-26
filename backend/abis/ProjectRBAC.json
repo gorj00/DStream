@@ -7679,18 +7679,18 @@
         1975
       ],
       "ProjectRBAC": [
-        3279
+        3277
       ],
       "Strings": [
         1939
       ]
     },
-    "id": 3280,
+    "id": 3278,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3083,
+        "id": 3081,
         "literals": [
           "solidity",
           ">=",
@@ -7706,10 +7706,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/access/AccessControl.sol",
         "file": "@openzeppelin/contracts/access/AccessControl.sol",
-        "id": 3084,
+        "id": 3082,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 3280,
+        "scope": 3278,
         "sourceUnit": 320,
         "src": "73:58:16",
         "symbolAliases": [],
@@ -7720,13 +7720,13 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 3085,
+              "id": 3083,
               "name": "AccessControl",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 319,
               "src": "159:13:16"
             },
-            "id": 3086,
+            "id": 3084,
             "nodeType": "InheritanceSpecifier",
             "src": "159:13:16"
           }
@@ -7735,9 +7735,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 3279,
+        "id": 3277,
         "linearizedBaseContracts": [
-          3279,
+          3277,
           319,
           1963,
           1975,
@@ -7751,12 +7751,12 @@
           {
             "constant": true,
             "functionSelector": "2a0acc6a",
-            "id": 3091,
+            "id": 3089,
             "mutability": "constant",
             "name": "ADMIN",
             "nameLocation": "202:5:16",
             "nodeType": "VariableDeclaration",
-            "scope": 3279,
+            "scope": 3277,
             "src": "178:50:16",
             "stateVariable": true,
             "storageLocation": "default",
@@ -7765,7 +7765,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 3087,
+              "id": 3085,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "178:7:16",
@@ -7778,7 +7778,7 @@
               "arguments": [
                 {
                   "hexValue": "41444d494e",
-                  "id": 3089,
+                  "id": 3087,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -7800,7 +7800,7 @@
                     "typeString": "literal_string \"ADMIN\""
                   }
                 ],
-                "id": 3088,
+                "id": 3086,
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -7811,7 +7811,7 @@
                   "typeString": "function (bytes memory) pure returns (bytes32)"
                 }
               },
-              "id": 3090,
+              "id": 3088,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -7831,12 +7831,12 @@
           {
             "constant": true,
             "functionSelector": "43487d8d",
-            "id": 3096,
+            "id": 3094,
             "mutability": "constant",
             "name": "EXECUTIVE_PRODUCER",
             "nameLocation": "257:18:16",
             "nodeType": "VariableDeclaration",
-            "scope": 3279,
+            "scope": 3277,
             "src": "233:76:16",
             "stateVariable": true,
             "storageLocation": "default",
@@ -7845,7 +7845,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 3092,
+              "id": 3090,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "233:7:16",
@@ -7858,7 +7858,7 @@
               "arguments": [
                 {
                   "hexValue": "4558454355544956455f50524f4455434552",
-                  "id": 3094,
+                  "id": 3092,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -7880,7 +7880,7 @@
                     "typeString": "literal_string \"EXECUTIVE_PRODUCER\""
                   }
                 ],
-                "id": 3093,
+                "id": 3091,
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -7891,7 +7891,7 @@
                   "typeString": "function (bytes memory) pure returns (bytes32)"
                 }
               },
-              "id": 3095,
+              "id": 3093,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -7911,12 +7911,12 @@
           {
             "constant": true,
             "functionSelector": "d2e1da1e",
-            "id": 3101,
+            "id": 3099,
             "mutability": "constant",
             "name": "PRODUCER",
             "nameLocation": "338:8:16",
             "nodeType": "VariableDeclaration",
-            "scope": 3279,
+            "scope": 3277,
             "src": "314:56:16",
             "stateVariable": true,
             "storageLocation": "default",
@@ -7925,7 +7925,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 3097,
+              "id": 3095,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "314:7:16",
@@ -7938,7 +7938,7 @@
               "arguments": [
                 {
                   "hexValue": "50524f4455434552",
-                  "id": 3099,
+                  "id": 3097,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
@@ -7960,7 +7960,7 @@
                     "typeString": "literal_string \"PRODUCER\""
                   }
                 ],
-                "id": 3098,
+                "id": 3096,
                 "name": "keccak256",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
@@ -7971,7 +7971,7 @@
                   "typeString": "function (bytes memory) pure returns (bytes32)"
                 }
               },
-              "id": 3100,
+              "id": 3098,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -7990,7 +7990,7 @@
           },
           {
             "body": {
-              "id": 3135,
+              "id": 3133,
               "nodeType": "Block",
               "src": "451:318:16",
               "statements": [
@@ -7998,7 +7998,7 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3114,
+                        "id": 3112,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -8010,11 +8010,11 @@
                         "subExpression": {
                           "arguments": [
                             {
-                              "id": 3111,
+                              "id": 3109,
                               "name": "EXECUTIVE_PRODUCER",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3096,
+                              "referencedDeclaration": 3094,
                               "src": "483:18:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
@@ -8022,11 +8022,11 @@
                               }
                             },
                             {
-                              "id": 3112,
+                              "id": 3110,
                               "name": "userAddr",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3103,
+                              "referencedDeclaration": 3101,
                               "src": "503:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -8045,7 +8045,7 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 3110,
+                            "id": 3108,
                             "name": "hasRole",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -8056,7 +8056,7 @@
                               "typeString": "function (bytes32,address) view returns (bool)"
                             }
                           },
-                          "id": 3113,
+                          "id": 3111,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -8078,7 +8078,7 @@
                       },
                       {
                         "hexValue": "5573657220697320616e206578656375746976652070726f647563657220616c726561647921",
-                        "id": 3115,
+                        "id": 3113,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -8104,7 +8104,7 @@
                           "typeString": "literal_string \"User is an executive producer already!\""
                         }
                       ],
-                      "id": 3109,
+                      "id": 3107,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -8118,7 +8118,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3116,
+                    "id": 3114,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8133,7 +8133,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3117,
+                  "id": 3115,
                   "nodeType": "ExpressionStatement",
                   "src": "458:111:16"
                 },
@@ -8141,11 +8141,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3119,
+                        "id": 3117,
                         "name": "EXECUTIVE_PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3096,
+                        "referencedDeclaration": 3094,
                         "src": "586:18:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -8153,11 +8153,11 @@
                         }
                       },
                       {
-                        "id": 3120,
+                        "id": 3118,
                         "name": "userAddr",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3103,
+                        "referencedDeclaration": 3101,
                         "src": "606:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -8176,7 +8176,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 3118,
+                      "id": 3116,
                       "name": "grantRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -8187,7 +8187,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 3121,
+                    "id": 3119,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8202,13 +8202,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3122,
+                  "id": 3120,
                   "nodeType": "ExpressionStatement",
                   "src": "576:39:16"
                 },
                 {
                   "condition": {
-                    "id": 3127,
+                    "id": 3125,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8220,11 +8220,11 @@
                     "subExpression": {
                       "arguments": [
                         {
-                          "id": 3124,
+                          "id": 3122,
                           "name": "PRODUCER",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3101,
+                          "referencedDeclaration": 3099,
                           "src": "695:8:16",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
@@ -8232,11 +8232,11 @@
                           }
                         },
                         {
-                          "id": 3125,
+                          "id": 3123,
                           "name": "userAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3103,
+                          "referencedDeclaration": 3101,
                           "src": "705:8:16",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -8255,7 +8255,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 3123,
+                        "id": 3121,
                         "name": "hasRole",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -8266,7 +8266,7 @@
                           "typeString": "function (bytes32,address) view returns (bool)"
                         }
                       },
-                      "id": 3126,
+                      "id": 3124,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -8286,11 +8286,11 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 3134,
+                  "id": 3132,
                   "nodeType": "IfStatement",
                   "src": "682:82:16",
                   "trueBody": {
-                    "id": 3133,
+                    "id": 3131,
                     "nodeType": "Block",
                     "src": "716:48:16",
                     "statements": [
@@ -8298,11 +8298,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 3129,
+                              "id": 3127,
                               "name": "PRODUCER",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3101,
+                              "referencedDeclaration": 3099,
                               "src": "737:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
@@ -8310,11 +8310,11 @@
                               }
                             },
                             {
-                              "id": 3130,
+                              "id": 3128,
                               "name": "userAddr",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3103,
+                              "referencedDeclaration": 3101,
                               "src": "747:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -8333,7 +8333,7 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 3128,
+                            "id": 3126,
                             "name": "grantRole",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -8344,7 +8344,7 @@
                               "typeString": "function (bytes32,address)"
                             }
                           },
-                          "id": 3131,
+                          "id": 3129,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -8359,7 +8359,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 3132,
+                        "id": 3130,
                         "nodeType": "ExpressionStatement",
                         "src": "727:29:16"
                       }
@@ -8369,18 +8369,18 @@
               ]
             },
             "functionSelector": "9c5b2a19",
-            "id": 3136,
+            "id": 3134,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": [
                   {
-                    "id": 3106,
+                    "id": 3104,
                     "name": "ADMIN",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3091,
+                    "referencedDeclaration": 3089,
                     "src": "444:5:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
@@ -8388,10 +8388,10 @@
                     }
                   }
                 ],
-                "id": 3107,
+                "id": 3105,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 3105,
+                  "id": 3103,
                   "name": "onlyRole",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 38,
@@ -8405,17 +8405,17 @@
             "nameLocation": "386:23:16",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3104,
+              "id": 3102,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3103,
+                  "id": 3101,
                   "mutability": "mutable",
                   "name": "userAddr",
                   "nameLocation": "418:8:16",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3136,
+                  "scope": 3134,
                   "src": "410:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -8424,7 +8424,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3102,
+                    "id": 3100,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "410:7:16",
@@ -8440,12 +8440,12 @@
               "src": "409:18:16"
             },
             "returnParameters": {
-              "id": 3108,
+              "id": 3106,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "451:0:16"
             },
-            "scope": 3279,
+            "scope": 3277,
             "src": "377:392:16",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -8453,7 +8453,7 @@
           },
           {
             "body": {
-              "id": 3158,
+              "id": 3156,
               "nodeType": "Block",
               "src": "853:139:16",
               "statements": [
@@ -8461,7 +8461,7 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3149,
+                        "id": 3147,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -8473,11 +8473,11 @@
                         "subExpression": {
                           "arguments": [
                             {
-                              "id": 3146,
+                              "id": 3144,
                               "name": "PRODUCER",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3101,
+                              "referencedDeclaration": 3099,
                               "src": "885:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
@@ -8485,11 +8485,11 @@
                               }
                             },
                             {
-                              "id": 3147,
+                              "id": 3145,
                               "name": "userAddr",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3138,
+                              "referencedDeclaration": 3136,
                               "src": "895:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -8508,7 +8508,7 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 3145,
+                            "id": 3143,
                             "name": "hasRole",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -8519,7 +8519,7 @@
                               "typeString": "function (bytes32,address) view returns (bool)"
                             }
                           },
-                          "id": 3148,
+                          "id": 3146,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -8541,7 +8541,7 @@
                       },
                       {
                         "hexValue": "5573657220697320612070726f647563657220616c726561647921",
-                        "id": 3150,
+                        "id": 3148,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -8567,7 +8567,7 @@
                           "typeString": "literal_string \"User is a producer already!\""
                         }
                       ],
-                      "id": 3144,
+                      "id": 3142,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -8581,7 +8581,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3151,
+                    "id": 3149,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8596,7 +8596,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3152,
+                  "id": 3150,
                   "nodeType": "ExpressionStatement",
                   "src": "860:90:16"
                 },
@@ -8604,11 +8604,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3154,
+                        "id": 3152,
                         "name": "PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3101,
+                        "referencedDeclaration": 3099,
                         "src": "967:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -8616,11 +8616,11 @@
                         }
                       },
                       {
-                        "id": 3155,
+                        "id": 3153,
                         "name": "userAddr",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3138,
+                        "referencedDeclaration": 3136,
                         "src": "977:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -8639,7 +8639,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 3153,
+                      "id": 3151,
                       "name": "grantRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -8650,7 +8650,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 3156,
+                    "id": 3154,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8665,25 +8665,25 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3157,
+                  "id": 3155,
                   "nodeType": "ExpressionStatement",
                   "src": "957:29:16"
                 }
               ]
             },
             "functionSelector": "82e45ba0",
-            "id": 3159,
+            "id": 3157,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": [
                   {
-                    "id": 3141,
+                    "id": 3139,
                     "name": "EXECUTIVE_PRODUCER",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3096,
+                    "referencedDeclaration": 3094,
                     "src": "833:18:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
@@ -8691,10 +8691,10 @@
                     }
                   }
                 ],
-                "id": 3142,
+                "id": 3140,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 3140,
+                  "id": 3138,
                   "name": "onlyRole",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 38,
@@ -8708,17 +8708,17 @@
             "nameLocation": "784:14:16",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3139,
+              "id": 3137,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3138,
+                  "id": 3136,
                   "mutability": "mutable",
                   "name": "userAddr",
                   "nameLocation": "807:8:16",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3159,
+                  "scope": 3157,
                   "src": "799:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -8727,7 +8727,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3137,
+                    "id": 3135,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "799:7:16",
@@ -8743,12 +8743,12 @@
               "src": "798:18:16"
             },
             "returnParameters": {
-              "id": 3143,
+              "id": 3141,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "853:0:16"
             },
-            "scope": 3279,
+            "scope": 3277,
             "src": "775:217:16",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -8756,7 +8756,7 @@
           },
           {
             "body": {
-              "id": 3206,
+              "id": 3204,
               "nodeType": "Block",
               "src": "1056:436:16",
               "statements": [
@@ -8766,11 +8766,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3166,
+                            "id": 3164,
                             "name": "ADMIN",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3091,
+                            "referencedDeclaration": 3089,
                             "src": "1079:5:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -8779,7 +8779,7 @@
                           },
                           {
                             "expression": {
-                              "id": 3167,
+                              "id": 3165,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -8790,7 +8790,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 3168,
+                            "id": 3166,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -8815,7 +8815,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3165,
+                          "id": 3163,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -8826,7 +8826,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3169,
+                        "id": 3167,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -8843,7 +8843,7 @@
                       },
                       {
                         "hexValue": "43616c6c6572206973206e6f7420616e2061646d696e",
-                        "id": 3170,
+                        "id": 3168,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -8869,7 +8869,7 @@
                           "typeString": "literal_string \"Caller is not an admin\""
                         }
                       ],
-                      "id": 3164,
+                      "id": 3162,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -8883,7 +8883,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3171,
+                    "id": 3169,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -8898,7 +8898,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3172,
+                  "id": 3170,
                   "nodeType": "ExpressionStatement",
                   "src": "1063:61:16"
                 },
@@ -8908,11 +8908,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3175,
+                            "id": 3173,
                             "name": "EXECUTIVE_PRODUCER",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3096,
+                            "referencedDeclaration": 3094,
                             "src": "1155:18:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -8921,7 +8921,7 @@
                           },
                           {
                             "expression": {
-                              "id": 3176,
+                              "id": 3174,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -8932,7 +8932,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 3177,
+                            "id": 3175,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -8957,7 +8957,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3174,
+                          "id": 3172,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -8968,7 +8968,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3178,
+                        "id": 3176,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -8985,7 +8985,7 @@
                       },
                       {
                         "hexValue": "43616c6c6572206973206e6f7420616e206578656375746976652070726f6475636572",
-                        "id": 3179,
+                        "id": 3177,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -9011,7 +9011,7 @@
                           "typeString": "literal_string \"Caller is not an executive producer\""
                         }
                       ],
-                      "id": 3173,
+                      "id": 3171,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -9025,7 +9025,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3180,
+                    "id": 3178,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9040,7 +9040,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3181,
+                  "id": 3179,
                   "nodeType": "ExpressionStatement",
                   "src": "1131:109:16"
                 },
@@ -9050,11 +9050,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3184,
+                            "id": 3182,
                             "name": "EXECUTIVE_PRODUCER",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3096,
+                            "referencedDeclaration": 3094,
                             "src": "1271:18:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -9062,11 +9062,11 @@
                             }
                           },
                           {
-                            "id": 3185,
+                            "id": 3183,
                             "name": "userAddr",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3161,
+                            "referencedDeclaration": 3159,
                             "src": "1291:8:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -9085,7 +9085,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3183,
+                          "id": 3181,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -9096,7 +9096,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3186,
+                        "id": 3184,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -9113,7 +9113,7 @@
                       },
                       {
                         "hexValue": "55736572206973206e6f7420616e206578656375746976652070726f647563657221",
-                        "id": 3187,
+                        "id": 3185,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -9139,7 +9139,7 @@
                           "typeString": "literal_string \"User is not an executive producer!\""
                         }
                       ],
-                      "id": 3182,
+                      "id": 3180,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -9153,7 +9153,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3188,
+                    "id": 3186,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9168,7 +9168,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3189,
+                  "id": 3187,
                   "nodeType": "ExpressionStatement",
                   "src": "1247:106:16"
                 },
@@ -9176,11 +9176,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3191,
+                        "id": 3189,
                         "name": "EXECUTIVE_PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3096,
+                        "referencedDeclaration": 3094,
                         "src": "1371:18:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -9188,11 +9188,11 @@
                         }
                       },
                       {
-                        "id": 3192,
+                        "id": 3190,
                         "name": "userAddr",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3161,
+                        "referencedDeclaration": 3159,
                         "src": "1391:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -9211,7 +9211,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 3190,
+                      "id": 3188,
                       "name": "revokeRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -9222,7 +9222,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 3193,
+                    "id": 3191,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9237,7 +9237,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3194,
+                  "id": 3192,
                   "nodeType": "ExpressionStatement",
                   "src": "1360:40:16"
                 },
@@ -9245,11 +9245,11 @@
                   "condition": {
                     "arguments": [
                       {
-                        "id": 3196,
+                        "id": 3194,
                         "name": "PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3101,
+                        "referencedDeclaration": 3099,
                         "src": "1419:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -9257,11 +9257,11 @@
                         }
                       },
                       {
-                        "id": 3197,
+                        "id": 3195,
                         "name": "userAddr",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3161,
+                        "referencedDeclaration": 3159,
                         "src": "1429:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -9280,7 +9280,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 3195,
+                      "id": 3193,
                       "name": "hasRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -9291,7 +9291,7 @@
                         "typeString": "function (bytes32,address) view returns (bool)"
                       }
                     },
-                    "id": 3198,
+                    "id": 3196,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9306,11 +9306,11 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 3205,
+                  "id": 3203,
                   "nodeType": "IfStatement",
                   "src": "1407:80:16",
                   "trueBody": {
-                    "id": 3204,
+                    "id": 3202,
                     "nodeType": "Block",
                     "src": "1440:47:16",
                     "statements": [
@@ -9318,11 +9318,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 3200,
+                              "id": 3198,
                               "name": "PRODUCER",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3101,
+                              "referencedDeclaration": 3099,
                               "src": "1460:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
@@ -9330,11 +9330,11 @@
                               }
                             },
                             {
-                              "id": 3201,
+                              "id": 3199,
                               "name": "userAddr",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3161,
+                              "referencedDeclaration": 3159,
                               "src": "1470:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -9353,7 +9353,7 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 3199,
+                            "id": 3197,
                             "name": "revokeRole",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -9364,7 +9364,7 @@
                               "typeString": "function (bytes32,address)"
                             }
                           },
-                          "id": 3202,
+                          "id": 3200,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -9379,7 +9379,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 3203,
+                        "id": 3201,
                         "nodeType": "ExpressionStatement",
                         "src": "1449:30:16"
                       }
@@ -9389,7 +9389,7 @@
               ]
             },
             "functionSelector": "7742ab9f",
-            "id": 3207,
+            "id": 3205,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -9397,17 +9397,17 @@
             "nameLocation": "1007:23:16",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3162,
+              "id": 3160,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3161,
+                  "id": 3159,
                   "mutability": "mutable",
                   "name": "userAddr",
                   "nameLocation": "1039:8:16",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3207,
+                  "scope": 3205,
                   "src": "1031:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -9416,7 +9416,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3160,
+                    "id": 3158,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1031:7:16",
@@ -9432,12 +9432,12 @@
               "src": "1030:18:16"
             },
             "returnParameters": {
-              "id": 3163,
+              "id": 3161,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1056:0:16"
             },
-            "scope": 3279,
+            "scope": 3277,
             "src": "998:494:16",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -9445,7 +9445,7 @@
           },
           {
             "body": {
-              "id": 3255,
+              "id": 3253,
               "nodeType": "Block",
               "src": "1556:436:16",
               "statements": [
@@ -9455,11 +9455,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3214,
+                            "id": 3212,
                             "name": "ADMIN",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3091,
+                            "referencedDeclaration": 3089,
                             "src": "1579:5:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -9468,7 +9468,7 @@
                           },
                           {
                             "expression": {
-                              "id": 3215,
+                              "id": 3213,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -9479,7 +9479,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 3216,
+                            "id": 3214,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -9504,7 +9504,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3213,
+                          "id": 3211,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -9515,7 +9515,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3217,
+                        "id": 3215,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -9532,7 +9532,7 @@
                       },
                       {
                         "hexValue": "43616c6c6572206973206e6f7420616e2061646d696e",
-                        "id": 3218,
+                        "id": 3216,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -9558,7 +9558,7 @@
                           "typeString": "literal_string \"Caller is not an admin\""
                         }
                       ],
-                      "id": 3212,
+                      "id": 3210,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -9572,7 +9572,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3219,
+                    "id": 3217,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9587,7 +9587,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3220,
+                  "id": 3218,
                   "nodeType": "ExpressionStatement",
                   "src": "1563:61:16"
                 },
@@ -9597,11 +9597,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3223,
+                            "id": 3221,
                             "name": "EXECUTIVE_PRODUCER",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3096,
+                            "referencedDeclaration": 3094,
                             "src": "1655:18:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -9610,7 +9610,7 @@
                           },
                           {
                             "expression": {
-                              "id": 3224,
+                              "id": 3222,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -9621,7 +9621,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 3225,
+                            "id": 3223,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -9646,7 +9646,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3222,
+                          "id": 3220,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -9657,7 +9657,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3226,
+                        "id": 3224,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -9674,7 +9674,7 @@
                       },
                       {
                         "hexValue": "43616c6c6572206973206e6f7420616e206578656375746976652070726f6475636572",
-                        "id": 3227,
+                        "id": 3225,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -9700,7 +9700,7 @@
                           "typeString": "literal_string \"Caller is not an executive producer\""
                         }
                       ],
-                      "id": 3221,
+                      "id": 3219,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -9714,7 +9714,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3228,
+                    "id": 3226,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9729,7 +9729,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3229,
+                  "id": 3227,
                   "nodeType": "ExpressionStatement",
                   "src": "1631:109:16"
                 },
@@ -9739,11 +9739,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3232,
+                            "id": 3230,
                             "name": "EXECUTIVE_PRODUCER",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3096,
+                            "referencedDeclaration": 3094,
                             "src": "1771:18:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -9751,11 +9751,11 @@
                             }
                           },
                           {
-                            "id": 3233,
+                            "id": 3231,
                             "name": "userAddr",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3209,
+                            "referencedDeclaration": 3207,
                             "src": "1791:8:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -9774,7 +9774,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3231,
+                          "id": 3229,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -9785,7 +9785,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3234,
+                        "id": 3232,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -9802,7 +9802,7 @@
                       },
                       {
                         "hexValue": "55736572206973206e6f7420616e206578656375746976652070726f647563657221",
-                        "id": 3235,
+                        "id": 3233,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -9828,7 +9828,7 @@
                           "typeString": "literal_string \"User is not an executive producer!\""
                         }
                       ],
-                      "id": 3230,
+                      "id": 3228,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -9842,7 +9842,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3236,
+                    "id": 3234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9857,7 +9857,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3237,
+                  "id": 3235,
                   "nodeType": "ExpressionStatement",
                   "src": "1747:106:16"
                 },
@@ -9865,11 +9865,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3239,
+                        "id": 3237,
                         "name": "EXECUTIVE_PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3096,
+                        "referencedDeclaration": 3094,
                         "src": "1871:18:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -9877,11 +9877,11 @@
                         }
                       },
                       {
-                        "id": 3240,
+                        "id": 3238,
                         "name": "userAddr",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3209,
+                        "referencedDeclaration": 3207,
                         "src": "1891:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -9900,7 +9900,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 3238,
+                      "id": 3236,
                       "name": "revokeRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -9911,7 +9911,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 3241,
+                    "id": 3239,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9926,13 +9926,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3242,
+                  "id": 3240,
                   "nodeType": "ExpressionStatement",
                   "src": "1860:40:16"
                 },
                 {
                   "condition": {
-                    "id": 3247,
+                    "id": 3245,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -9944,11 +9944,11 @@
                     "subExpression": {
                       "arguments": [
                         {
-                          "id": 3244,
+                          "id": 3242,
                           "name": "PRODUCER",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3101,
+                          "referencedDeclaration": 3099,
                           "src": "1920:8:16",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
@@ -9956,11 +9956,11 @@
                           }
                         },
                         {
-                          "id": 3245,
+                          "id": 3243,
                           "name": "userAddr",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 3209,
+                          "referencedDeclaration": 3207,
                           "src": "1930:8:16",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -9979,7 +9979,7 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 3243,
+                        "id": 3241,
                         "name": "hasRole",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -9990,7 +9990,7 @@
                           "typeString": "function (bytes32,address) view returns (bool)"
                         }
                       },
-                      "id": 3246,
+                      "id": 3244,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -10010,11 +10010,11 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 3254,
+                  "id": 3252,
                   "nodeType": "IfStatement",
                   "src": "1907:80:16",
                   "trueBody": {
-                    "id": 3253,
+                    "id": 3251,
                     "nodeType": "Block",
                     "src": "1941:46:16",
                     "statements": [
@@ -10022,11 +10022,11 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 3249,
+                              "id": 3247,
                               "name": "PRODUCER",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3101,
+                              "referencedDeclaration": 3099,
                               "src": "1960:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
@@ -10034,11 +10034,11 @@
                               }
                             },
                             {
-                              "id": 3250,
+                              "id": 3248,
                               "name": "userAddr",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 3209,
+                              "referencedDeclaration": 3207,
                               "src": "1970:8:16",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -10057,7 +10057,7 @@
                                 "typeString": "address"
                               }
                             ],
-                            "id": 3248,
+                            "id": 3246,
                             "name": "grantRole",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -10068,7 +10068,7 @@
                               "typeString": "function (bytes32,address)"
                             }
                           },
-                          "id": 3251,
+                          "id": 3249,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -10083,7 +10083,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 3252,
+                        "id": 3250,
                         "nodeType": "ExpressionStatement",
                         "src": "1950:29:16"
                       }
@@ -10093,7 +10093,7 @@
               ]
             },
             "functionSelector": "58ac612c",
-            "id": 3256,
+            "id": 3254,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -10101,17 +10101,17 @@
             "nameLocation": "1507:23:16",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3210,
+              "id": 3208,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3209,
+                  "id": 3207,
                   "mutability": "mutable",
                   "name": "userAddr",
                   "nameLocation": "1539:8:16",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3256,
+                  "scope": 3254,
                   "src": "1531:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -10120,7 +10120,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3208,
+                    "id": 3206,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1531:7:16",
@@ -10136,12 +10136,12 @@
               "src": "1530:18:16"
             },
             "returnParameters": {
-              "id": 3211,
+              "id": 3209,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1556:0:16"
             },
-            "scope": 3279,
+            "scope": 3277,
             "src": "1498:494:16",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -10149,7 +10149,7 @@
           },
           {
             "body": {
-              "id": 3277,
+              "id": 3275,
               "nodeType": "Block",
               "src": "2086:135:16",
               "statements": [
@@ -10159,11 +10159,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 3266,
+                            "id": 3264,
                             "name": "PRODUCER",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3101,
+                            "referencedDeclaration": 3099,
                             "src": "2117:8:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -10171,11 +10171,11 @@
                             }
                           },
                           {
-                            "id": 3267,
+                            "id": 3265,
                             "name": "userAddr",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3258,
+                            "referencedDeclaration": 3256,
                             "src": "2127:8:16",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -10194,7 +10194,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 3265,
+                          "id": 3263,
                           "name": "hasRole",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -10205,7 +10205,7 @@
                             "typeString": "function (bytes32,address) view returns (bool)"
                           }
                         },
-                        "id": 3268,
+                        "id": 3266,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -10222,7 +10222,7 @@
                       },
                       {
                         "hexValue": "55736572206973206e6f7420612070726f647563657221",
-                        "id": 3269,
+                        "id": 3267,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -10248,7 +10248,7 @@
                           "typeString": "literal_string \"User is not a producer!\""
                         }
                       ],
-                      "id": 3264,
+                      "id": 3262,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -10262,7 +10262,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 3270,
+                    "id": 3268,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -10277,7 +10277,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3271,
+                  "id": 3269,
                   "nodeType": "ExpressionStatement",
                   "src": "2093:85:16"
                 },
@@ -10285,11 +10285,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 3273,
+                        "id": 3271,
                         "name": "PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3101,
+                        "referencedDeclaration": 3099,
                         "src": "2196:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -10297,11 +10297,11 @@
                         }
                       },
                       {
-                        "id": 3274,
+                        "id": 3272,
                         "name": "userAddr",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3258,
+                        "referencedDeclaration": 3256,
                         "src": "2206:8:16",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -10320,7 +10320,7 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 3272,
+                      "id": 3270,
                       "name": "revokeRole",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -10331,7 +10331,7 @@
                         "typeString": "function (bytes32,address)"
                       }
                     },
-                    "id": 3275,
+                    "id": 3273,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -10346,25 +10346,25 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 3276,
+                  "id": 3274,
                   "nodeType": "ExpressionStatement",
                   "src": "2185:30:16"
                 }
               ]
             },
             "functionSelector": "3f185b6c",
-            "id": 3278,
+            "id": 3276,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
                 "arguments": [
                   {
-                    "id": 3261,
+                    "id": 3259,
                     "name": "EXECUTIVE_PRODUCER",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3096,
+                    "referencedDeclaration": 3094,
                     "src": "2062:18:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
@@ -10372,10 +10372,10 @@
                     }
                   }
                 ],
-                "id": 3262,
+                "id": 3260,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 3260,
+                  "id": 3258,
                   "name": "onlyRole",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 38,
@@ -10389,17 +10389,17 @@
             "nameLocation": "2007:14:16",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3259,
+              "id": 3257,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3258,
+                  "id": 3256,
                   "mutability": "mutable",
                   "name": "userAddr",
                   "nameLocation": "2030:8:16",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3278,
+                  "scope": 3276,
                   "src": "2022:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -10408,7 +10408,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3257,
+                    "id": 3255,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2022:7:16",
@@ -10424,19 +10424,19 @@
               "src": "2021:18:16"
             },
             "returnParameters": {
-              "id": 3263,
+              "id": 3261,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2086:0:16"
             },
-            "scope": 3279,
+            "scope": 3277,
             "src": "1998:223:16",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 3280,
+        "scope": 3278,
         "src": "135:2091:16",
         "usedErrors": []
       }
@@ -10449,7 +10449,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-26T08:54:02.063Z",
+  "updatedAt": "2022-06-26T12:39:43.655Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

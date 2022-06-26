@@ -13497,7 +13497,7 @@
         2762
       ],
       "ProjectRBAC": [
-        3279
+        3277
       ],
       "SafeMath": [
         2287
@@ -13543,7 +13543,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 2763,
-        "sourceUnit": 3280,
+        "sourceUnit": 3278,
         "src": "132:34:13",
         "symbolAliases": [],
         "unitAlias": ""
@@ -13556,7 +13556,7 @@
               "id": 2399,
               "name": "ProjectRBAC",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3279,
+              "referencedDeclaration": 3277,
               "src": "190:11:13"
             },
             "id": 2400,
@@ -13571,7 +13571,7 @@
         "id": 2762,
         "linearizedBaseContracts": [
           2762,
-          3279,
+          3277,
           319,
           1963,
           1975,
@@ -14646,7 +14646,7 @@
                         "name": "ADMIN",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3091,
+                        "referencedDeclaration": 3089,
                         "src": "1740:5:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14658,7 +14658,7 @@
                         "name": "ADMIN",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3091,
+                        "referencedDeclaration": 3089,
                         "src": "1747:5:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14715,7 +14715,7 @@
                         "name": "EXECUTIVE_PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3096,
+                        "referencedDeclaration": 3094,
                         "src": "1791:18:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14727,7 +14727,7 @@
                         "name": "ADMIN",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3091,
+                        "referencedDeclaration": 3089,
                         "src": "1811:5:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14784,7 +14784,7 @@
                         "name": "PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3101,
+                        "referencedDeclaration": 3099,
                         "src": "1840:8:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14796,7 +14796,7 @@
                         "name": "EXECUTIVE_PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3096,
+                        "referencedDeclaration": 3094,
                         "src": "1850:18:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14853,7 +14853,7 @@
                         "name": "ADMIN",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3091,
+                        "referencedDeclaration": 3089,
                         "src": "1891:5:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14922,7 +14922,7 @@
                         "name": "EXECUTIVE_PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3096,
+                        "referencedDeclaration": 3094,
                         "src": "1933:18:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -14991,7 +14991,7 @@
                         "name": "PRODUCER",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 3101,
+                        "referencedDeclaration": 3099,
                         "src": "1988:8:13",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -17908,7 +17908,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-26T08:54:01.999Z",
+  "updatedAt": "2022-06-26T12:39:43.598Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
