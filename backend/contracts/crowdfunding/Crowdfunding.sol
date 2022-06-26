@@ -8,9 +8,11 @@ contract Crowdfunding {
 
     // List of existing projects
     Project[] private projects;
+    uint public projectsCount;
 
     // Event that will be emitted whenever a new project is started
     event ProjectCreated(
+        uint projectId,
         address contractAddress,
         address projectFounder,
         string projectTitle,
@@ -30,7 +32,9 @@ contract Crowdfunding {
           payable(msg.sender), title, description, raiseUntil, amountToRaise
         );
         projects.push(newProject);
+        projectsCount = projectsCount.add(1);
         emit ProjectCreated(
+            projectsCount,
             address(newProject),
             msg.sender,
             title,
