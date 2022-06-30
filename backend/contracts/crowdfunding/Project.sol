@@ -11,7 +11,7 @@ contract Project is ProjectRBAC {
     Fundraising,
     Expired,
     Successful,
-    Cancelled
+    Canceled
   }
 
   // State variables

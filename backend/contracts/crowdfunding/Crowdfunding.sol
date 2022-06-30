@@ -2,7 +2,7 @@
 pragma solidity >=0.6.0 <0.9.0;
 import '@openzeppelin/contracts/utils/math/SafeMath.sol';
 import './Project.sol';
-
+// Based on Sam Benemerito's tutorial on Medium
 contract Crowdfunding {
     using SafeMath for uint256;
 

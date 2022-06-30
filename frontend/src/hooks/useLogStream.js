@@ -1,8 +1,6 @@
 import { useEffect } from 'react'
 
-export const useLogStream = (playerRef, interval=1000) => {
-
-
+export const useLogStream = (playerRef, interval=15000) => {
   function timeRangesToString(r) {
     let log = '';
     for (let i = 0; i < r.length; i++) {
