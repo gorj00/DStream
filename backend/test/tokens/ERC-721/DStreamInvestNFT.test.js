@@ -5,8 +5,8 @@ const should = chai.should();
 chai.use(require('chai-as-promised'));
 
 const DStreamInvestNFT = artifacts.require('DStreamInvestNFT')
-const networks = require('../../abis/DStreamInvestNFT.json').networks;
-const { EVM_REVERT, ZERO_ADDRESS } = require('../utils/helpers')
+const networks = require('../../../abis/DStreamInvestNFT.json').networks;
+const { EVM_REVERT, ZERO_ADDRESS } = require('../../utils/helpers')
 
 // REQUIRE ADDRESS LINE MUST BE COMMENTED OUT FOR THE TEST
 contract('DStreamInvestNFT', ([user1, user2]) => {

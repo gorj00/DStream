@@ -15,5 +15,5 @@
     "devDependencies": {
       "lerna": "^5.0.0"
     }, 
-    "workspaces": ["@dstream/ethereum, @dstream/frontend, @dstream/dev"]
+    "workspaces": ["@dstream/ethereum/*, @dstream/frontend/*, @dstream/dev/*"]
   }

@@ -1,7 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { Modal } from 'reactstrap'
+import ReactHlsPlayer from 'react-hls-player'
+import { useLogStream } from '../../hooks/useLogStream'
 
 const SingleVideoModal = ({ show, close, picture, info }) => {
+  const playerRef = useRef();
+  useLogStream(playerRef)
+
   return (
     <Modal
       modalClassName="modal-black"
@@ -26,6 +31,17 @@ const SingleVideoModal = ({ show, close, picture, info }) => {
             src={picture} 
             alt=""
           /> */}
+        <ReactHlsPlayer
+          src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          autoPlay={true}
+          controls={true}
+          width="100%"
+          height="auto"
+          playerRef={playerRef}
+        />
+
+        {/* <video ref={playerRef}         width="100%"
+          height="auto" /> */}
       </div>
     </Modal>
   )

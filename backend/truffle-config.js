@@ -34,7 +34,7 @@ module.exports = {
   // test_directory: './test/',
   // test_directory: './test/streaming/',
   // test_directory: './test/crowdfunding/',
-  test_directory: './test/tokens/',
+  test_directory: './test/tokens/ERC-20',
 
   // Configure your compilers
   compilers: {
