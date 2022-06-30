@@ -1,5 +1,5 @@
 const ether = (n) => {
-    // Not really using ether, only using for converting decimal places which is the same for a custom Token
+    // Not really using ether, only using for converting decimal places which is the same for a custom Token of 18 decimals
     return new web3.utils.BN( // Big number
         web3.utils.toWei(n.toString(), 'ether')
     )
