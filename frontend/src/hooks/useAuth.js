@@ -28,14 +28,13 @@ export function useAuth () {
 
           const networkId = await web3.eth.net.getId()
           const networkData = DStreamToken.networks[networkId]
-            if(networkData) {
-              const contract = new web3.eth.Contract(DStreamToken.abi, networkData.address)
-              console.log('hello')
-              const memeHash = await contract.methods.sendAwards('0xf1C118004297Cd03996aE312A7F88a5f8e3d65f9', accounts[0], 1).send({from: accounts[0]});
-              const bal = await contract.methods.balanceOf(accounts[0]).call();
-              console.log(memeHash, bal)
+            // if(networkData) {
+            //   const contract = new web3.eth.Contract(DStreamToken.abi, networkData.address)
+            //   // const memeHash = await contract.methods.sendAwards('0xf1C118004297Cd03996aE312A7F88a5f8e3d65f9', '0xEA81ECc75053C9DDb86479422bC8107cf2FD155D', 1).send({from: '0xEA81ECc75053C9DDb86479422bC8107cf2FD155D'});
+            //   const bal = await contract.methods.balanceOf('0xEA81ECc75053C9DDb86479422bC8107cf2FD155D').call();
+            //   console.log(bal)
 
-            }
+            // }
 
           return Promise.resolve();
         } else {

@@ -1,40 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+
+import App from "./App"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.2.0";
 import "assets/demo/demo.css";
 
-import Index from "views/Index.js";
-import LandingPage from "views/examples/LandingPage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
-import Content from "components/Content"
+const client = new ApolloClient({
+  uri: 'http://127.0.0.1:8000/subgraphs/name/dstream/ethereum-graph',
+  cache: new InMemoryCache(),
+});
+
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/components" render={(props) => <Index {...props} />} />
-      <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
-      />
-      <Route
-        path="/register-page"
-        render={(props) => <RegisterPage {...props} />}
-      />
-      <Route
-        path="/profile-page"
-        render={(props) => <ProfilePage {...props} />}
-      />
-      <Route
-        path="/"
-        render={(props) => <Content {...props} />}
-      />
-      <Redirect from="/" to="/components" />
-    </Switch>
-  </BrowserRouter>,
+  <ApolloProvider client={client}>
+    <App />
+  </ApolloProvider>,
   document.getElementById("root")
 );

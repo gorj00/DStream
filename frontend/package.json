@@ -17,6 +17,7 @@
     "decentralized"
   ],
   "dependencies": {
+    "@apollo/client": "^3.6.9",
     "@dstream/ethereum": "file:../backend",
     "@maticnetwork/maticjs-web3": "^1.0.1",
     "@testing-library/jest-dom": "5.11.6",
@@ -26,6 +27,7 @@
     "bootstrap": "^4.5.3",
     "chart.js": "2.9.4",
     "classnames": "2.2.6",
+    "graphql": "^16.5.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "hls.js": "^1.1.5",
