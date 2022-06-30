@@ -27,11 +27,10 @@ contract('DStreamToken', ([deployer, streamer]) => {
       assert.strictEqual(supply.toString(), '1000000000000000000000000') 
     })
 
-    it('sends rewards to streamer', async () => {
-      const sendRewardsRequest = await Token.sendAwards(deployer, streamer, 1)
+    it('sends rewards to streamer by deployer', async () => {
+      const sendRewardsRequest = await Token.sendAwards(deployer, streamer, 1, { from: deployer })
       const balance = await Token.balanceOf(streamer)
-      // 100000000000000000000
-      console.log('BALANCE ', balance.toString())
+      assert.strictEqual(balance.toString(), '100000000000000000000') 
     })
 
   })

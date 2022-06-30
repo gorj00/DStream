@@ -137,3 +137,73 @@ export class Video extends Entity {
     this.set("projectId", Value.fromI32(value));
   }
 }
+
+export class StreamRewardLog extends Entity {
+  constructor(id: Bytes) {
+    super();
+    this.set("id", Value.fromBytes(id));
+  }
+
+  save(): void {
+    let id = this.get("id");
+    assert(id != null, "Cannot save StreamRewardLog entity without an ID");
+    if (id) {
+      assert(
+        id.kind == ValueKind.BYTES,
+        `Entities of type StreamRewardLog must have an ID of type Bytes but the id '${id.displayData()}' is of type ${id.displayKind()}`
+      );
+      store.set("StreamRewardLog", id.toBytes().toHexString(), this);
+    }
+  }
+
+  static load(id: Bytes): StreamRewardLog | null {
+    return changetype<StreamRewardLog | null>(
+      store.get("StreamRewardLog", id.toHexString())
+    );
+  }
+
+  get id(): Bytes {
+    let value = this.get("id");
+    return value!.toBytes();
+  }
+
+  set id(value: Bytes) {
+    this.set("id", Value.fromBytes(value));
+  }
+
+  get user(): string {
+    let value = this.get("user");
+    return value!.toString();
+  }
+
+  set user(value: string) {
+    this.set("user", Value.fromString(value));
+  }
+
+  get video(): string {
+    let value = this.get("video");
+    return value!.toString();
+  }
+
+  set video(value: string) {
+    this.set("video", Value.fromString(value));
+  }
+
+  get date(): i32 {
+    let value = this.get("date");
+    return value!.toI32();
+  }
+
+  set date(value: i32) {
+    this.set("date", Value.fromI32(value));
+  }
+
+  get amount(): i32 {
+    let value = this.get("amount");
+    return value!.toI32();
+  }
+
+  set amount(value: i32) {
+    this.set("amount", Value.fromI32(value));
+  }
+}

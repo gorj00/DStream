@@ -31,10 +31,10 @@ module.exports = {
 
   contracts_directory: "./contracts/**/*.sol",
   contracts_build_directory: './abis/',
-  test_directory: './test/',
+  // test_directory: './test/',
   // test_directory: './test/users/',
   // test_directory: './test/crowdfunding/',
-  // test_directory: './test/tokens/ERC-20',
+  test_directory: './test/tokens/ERC-20',
 
   // Configure your compilers
   compilers: {

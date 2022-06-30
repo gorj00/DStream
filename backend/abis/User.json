@@ -66,8 +66,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -1466,15 +1465,15 @@
     "absolutePath": "project:/contracts/users/User.sol",
     "exportedSymbols": {
       "User": [
-        4262
+        4285
       ]
     },
-    "id": 4263,
+    "id": 4286,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 4073,
+        "id": 4096,
         "literals": [
           "solidity",
           ">=",
@@ -1494,9 +1493,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 4262,
+        "id": 4285,
         "linearizedBaseContracts": [
-          4262
+          4285
         ],
         "name": "User",
         "nameLocation": "84:4:21",
@@ -1504,16 +1503,16 @@
         "nodes": [
           {
             "canonicalName": "User.UserType",
-            "id": 4080,
+            "id": 4103,
             "members": [
               {
                 "constant": false,
-                "id": 4075,
+                "id": 4098,
                 "mutability": "mutable",
                 "name": "addr",
                 "nameLocation": "127:4:21",
                 "nodeType": "VariableDeclaration",
-                "scope": 4080,
+                "scope": 4103,
                 "src": "119:12:21",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -1522,7 +1521,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 4074,
+                  "id": 4097,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "119:7:21",
@@ -1536,12 +1535,12 @@
               },
               {
                 "constant": false,
-                "id": 4077,
+                "id": 4100,
                 "mutability": "mutable",
                 "name": "isLoggedIn",
                 "nameLocation": "145:10:21",
                 "nodeType": "VariableDeclaration",
-                "scope": 4080,
+                "scope": 4103,
                 "src": "140:15:21",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -1550,7 +1549,7 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 4076,
+                  "id": 4099,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "140:4:21",
@@ -1563,12 +1562,12 @@
               },
               {
                 "constant": false,
-                "id": 4079,
+                "id": 4102,
                 "mutability": "mutable",
                 "name": "date",
                 "nameLocation": "172:4:21",
                 "nodeType": "VariableDeclaration",
-                "scope": 4080,
+                "scope": 4103,
                 "src": "164:12:21",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -1577,7 +1576,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 4078,
+                  "id": 4101,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "164:7:21",
@@ -1592,30 +1591,30 @@
             "name": "UserType",
             "nameLocation": "101:8:21",
             "nodeType": "StructDefinition",
-            "scope": 4262,
+            "scope": 4285,
             "src": "94:88:21",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "a87430ba",
-            "id": 4085,
+            "id": 4108,
             "mutability": "mutable",
             "name": "users",
             "nameLocation": "224:5:21",
             "nodeType": "VariableDeclaration",
-            "scope": 4262,
+            "scope": 4285,
             "src": "188:41:21",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
               "typeString": "mapping(address => struct User.UserType)"
             },
             "typeName": {
-              "id": 4084,
+              "id": 4107,
               "keyType": {
-                "id": 4081,
+                "id": 4104,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "196:7:21",
@@ -1627,23 +1626,23 @@
               "nodeType": "Mapping",
               "src": "188:28:21",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                 "typeString": "mapping(address => struct User.UserType)"
               },
               "valueType": {
-                "id": 4083,
+                "id": 4106,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 4082,
+                  "id": 4105,
                   "name": "UserType",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 4080,
+                  "referencedDeclaration": 4103,
                   "src": "207:8:21"
                 },
-                "referencedDeclaration": 4080,
+                "referencedDeclaration": 4103,
                 "src": "207:8:21",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_UserType_$4080_storage_ptr",
+                  "typeIdentifier": "t_struct$_UserType_$4103_storage_ptr",
                   "typeString": "struct User.UserType"
                 }
               }
@@ -1653,23 +1652,23 @@
           {
             "anonymous": false,
             "eventSelector": "54db7a5cb4735e1aac1f53db512d3390390bb6637bd30ad4bf9fc98667d9b9b9",
-            "id": 4089,
+            "id": 4112,
             "name": "UserRegistered",
             "nameLocation": "240:14:21",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 4088,
+              "id": 4111,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4087,
+                  "id": 4110,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "addr",
                   "nameLocation": "263:4:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4089,
+                  "scope": 4112,
                   "src": "255:12:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1678,7 +1677,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4086,
+                    "id": 4109,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "255:7:21",
@@ -1698,23 +1697,23 @@
           {
             "anonymous": false,
             "eventSelector": "965dfc6c43dd05e27fe810d49a8fe38e7214e3e2982b932b7d21a3ec504f05b7",
-            "id": 4097,
+            "id": 4120,
             "name": "UserLoginLog",
             "nameLocation": "279:12:21",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 4096,
+              "id": 4119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4091,
+                  "id": 4114,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "addr",
                   "nameLocation": "300:4:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4097,
+                  "scope": 4120,
                   "src": "292:12:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1723,7 +1722,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4090,
+                    "id": 4113,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "292:7:21",
@@ -1737,13 +1736,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4093,
+                  "id": 4116,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "isLoggedIn",
                   "nameLocation": "311:10:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4097,
+                  "scope": 4120,
                   "src": "306:15:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1752,7 +1751,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4092,
+                    "id": 4115,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "306:4:21",
@@ -1765,13 +1764,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4095,
+                  "id": 4118,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "date",
                   "nameLocation": "331:4:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4097,
+                  "scope": 4120,
                   "src": "323:12:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1780,7 +1779,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4094,
+                    "id": 4117,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "323:7:21",
@@ -1798,7 +1797,7 @@
           },
           {
             "body": {
-              "id": 4142,
+              "id": 4165,
               "nodeType": "Block",
               "src": "421:234:21",
               "statements": [
@@ -1810,7 +1809,7 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 4111,
+                        "id": 4134,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1818,24 +1817,24 @@
                         "leftExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4105,
+                              "id": 4128,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4085,
+                              "referencedDeclaration": 4108,
                               "src": "436:5:21",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                                 "typeString": "mapping(address => struct User.UserType storage ref)"
                               }
                             },
-                            "id": 4107,
+                            "id": 4130,
                             "indexExpression": {
-                              "id": 4106,
+                              "id": 4129,
                               "name": "_address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4099,
+                              "referencedDeclaration": 4122,
                               "src": "442:8:21",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -1849,18 +1848,18 @@
                             "nodeType": "IndexAccess",
                             "src": "436:15:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                              "typeIdentifier": "t_struct$_UserType_$4103_storage",
                               "typeString": "struct User.UserType storage ref"
                             }
                           },
-                          "id": 4108,
+                          "id": 4131,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "addr",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4075,
+                          "referencedDeclaration": 4098,
                           "src": "436:20:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -1871,7 +1870,7 @@
                         "operator": "!=",
                         "rightExpression": {
                           "expression": {
-                            "id": 4109,
+                            "id": 4132,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -1882,7 +1881,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 4110,
+                          "id": 4133,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1909,7 +1908,7 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 4104,
+                      "id": 4127,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -1923,7 +1922,7 @@
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 4112,
+                    "id": 4135,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1938,13 +1937,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4113,
+                  "id": 4136,
                   "nodeType": "ExpressionStatement",
                   "src": "428:43:21"
                 },
                 {
                   "expression": {
-                    "id": 4119,
+                    "id": 4142,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1952,24 +1951,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4114,
+                          "id": 4137,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "478:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4116,
+                        "id": 4139,
                         "indexExpression": {
-                          "id": 4115,
+                          "id": 4138,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4099,
+                          "referencedDeclaration": 4122,
                           "src": "484:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -1983,18 +1982,18 @@
                         "nodeType": "IndexAccess",
                         "src": "478:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4117,
+                      "id": 4140,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "addr",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4075,
+                      "referencedDeclaration": 4098,
                       "src": "478:20:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2004,11 +2003,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 4118,
+                      "id": 4141,
                       "name": "_address",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4099,
+                      "referencedDeclaration": 4122,
                       "src": "501:8:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2021,13 +2020,13 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 4120,
+                  "id": 4143,
                   "nodeType": "ExpressionStatement",
                   "src": "478:31:21"
                 },
                 {
                   "expression": {
-                    "id": 4126,
+                    "id": 4149,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2035,24 +2034,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4121,
+                          "id": 4144,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "516:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4123,
+                        "id": 4146,
                         "indexExpression": {
-                          "id": 4122,
+                          "id": 4145,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4099,
+                          "referencedDeclaration": 4122,
                           "src": "522:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2066,18 +2065,18 @@
                         "nodeType": "IndexAccess",
                         "src": "516:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4124,
+                      "id": 4147,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "isLoggedIn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4077,
+                      "referencedDeclaration": 4100,
                       "src": "516:26:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2088,7 +2087,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "66616c7365",
-                      "id": 4125,
+                      "id": 4148,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2108,13 +2107,13 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 4127,
+                  "id": 4150,
                   "nodeType": "ExpressionStatement",
                   "src": "516:34:21"
                 },
                 {
                   "expression": {
-                    "id": 4134,
+                    "id": 4157,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2122,24 +2121,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4128,
+                          "id": 4151,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "557:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4130,
+                        "id": 4153,
                         "indexExpression": {
-                          "id": 4129,
+                          "id": 4152,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4099,
+                          "referencedDeclaration": 4122,
                           "src": "563:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2153,18 +2152,18 @@
                         "nodeType": "IndexAccess",
                         "src": "557:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4131,
+                      "id": 4154,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "date",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4079,
+                      "referencedDeclaration": 4102,
                       "src": "557:20:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2175,7 +2174,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 4132,
+                        "id": 4155,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2186,7 +2185,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 4133,
+                      "id": 4156,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2205,7 +2204,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4135,
+                  "id": 4158,
                   "nodeType": "ExpressionStatement",
                   "src": "557:38:21"
                 },
@@ -2213,11 +2212,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 4137,
+                        "id": 4160,
                         "name": "_address",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4099,
+                        "referencedDeclaration": 4122,
                         "src": "622:8:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2232,18 +2231,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 4136,
+                      "id": 4159,
                       "name": "UserRegistered",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4089,
+                      "referencedDeclaration": 4112,
                       "src": "607:14:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$returns$__$",
                         "typeString": "function (address)"
                       }
                     },
-                    "id": 4138,
+                    "id": 4161,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2258,14 +2257,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4139,
+                  "id": 4162,
                   "nodeType": "EmitStatement",
                   "src": "602:29:21"
                 },
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 4140,
+                    "id": 4163,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -2279,15 +2278,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 4103,
-                  "id": 4141,
+                  "functionReturnParameters": 4126,
+                  "id": 4164,
                   "nodeType": "Return",
                   "src": "638:11:21"
                 }
               ]
             },
             "functionSelector": "4420e486",
-            "id": 4143,
+            "id": 4166,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -2295,17 +2294,17 @@
             "nameLocation": "352:8:21",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4100,
+              "id": 4123,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4099,
+                  "id": 4122,
                   "mutability": "mutable",
                   "name": "_address",
                   "nameLocation": "369:8:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4143,
+                  "scope": 4166,
                   "src": "361:16:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2314,7 +2313,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4098,
+                    "id": 4121,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "361:7:21",
@@ -2330,17 +2329,17 @@
               "src": "360:18:21"
             },
             "returnParameters": {
-              "id": 4103,
+              "id": 4126,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4102,
+                  "id": 4125,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4143,
+                  "scope": 4166,
                   "src": "411:4:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2349,7 +2348,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4101,
+                    "id": 4124,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "411:4:21",
@@ -2363,7 +2362,7 @@
               ],
               "src": "410:6:21"
             },
-            "scope": 4262,
+            "scope": 4285,
             "src": "343:312:21",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -2371,7 +2370,7 @@
           },
           {
             "body": {
-              "id": 4201,
+              "id": 4224,
               "nodeType": "Block",
               "src": "716:336:21",
               "statements": [
@@ -2383,7 +2382,7 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 4157,
+                        "id": 4180,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2391,24 +2390,24 @@
                         "leftExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4151,
+                              "id": 4174,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4085,
+                              "referencedDeclaration": 4108,
                               "src": "731:5:21",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                                 "typeString": "mapping(address => struct User.UserType storage ref)"
                               }
                             },
-                            "id": 4153,
+                            "id": 4176,
                             "indexExpression": {
-                              "id": 4152,
+                              "id": 4175,
                               "name": "_address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4145,
+                              "referencedDeclaration": 4168,
                               "src": "737:8:21",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -2422,18 +2421,18 @@
                             "nodeType": "IndexAccess",
                             "src": "731:15:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                              "typeIdentifier": "t_struct$_UserType_$4103_storage",
                               "typeString": "struct User.UserType storage ref"
                             }
                           },
-                          "id": 4154,
+                          "id": 4177,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "addr",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4075,
+                          "referencedDeclaration": 4098,
                           "src": "731:20:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2444,7 +2443,7 @@
                         "operator": "==",
                         "rightExpression": {
                           "expression": {
-                            "id": 4155,
+                            "id": 4178,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -2455,7 +2454,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 4156,
+                          "id": 4179,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2482,7 +2481,7 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 4150,
+                      "id": 4173,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -2496,7 +2495,7 @@
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 4158,
+                    "id": 4181,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2511,7 +2510,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4159,
+                  "id": 4182,
                   "nodeType": "ExpressionStatement",
                   "src": "723:43:21"
                 },
@@ -2523,7 +2522,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 4166,
+                        "id": 4189,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2531,24 +2530,24 @@
                         "leftExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4161,
+                              "id": 4184,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4085,
+                              "referencedDeclaration": 4108,
                               "src": "781:5:21",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                                 "typeString": "mapping(address => struct User.UserType storage ref)"
                               }
                             },
-                            "id": 4163,
+                            "id": 4186,
                             "indexExpression": {
-                              "id": 4162,
+                              "id": 4185,
                               "name": "_address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4145,
+                              "referencedDeclaration": 4168,
                               "src": "787:8:21",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -2562,18 +2561,18 @@
                             "nodeType": "IndexAccess",
                             "src": "781:15:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                              "typeIdentifier": "t_struct$_UserType_$4103_storage",
                               "typeString": "struct User.UserType storage ref"
                             }
                           },
-                          "id": 4164,
+                          "id": 4187,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "isLoggedIn",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4077,
+                          "referencedDeclaration": 4100,
                           "src": "781:26:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -2584,7 +2583,7 @@
                         "operator": "==",
                         "rightExpression": {
                           "hexValue": "66616c7365",
-                          "id": 4165,
+                          "id": 4188,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2612,7 +2611,7 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 4160,
+                      "id": 4183,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -2626,7 +2625,7 @@
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 4167,
+                    "id": 4190,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2641,13 +2640,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4168,
+                  "id": 4191,
                   "nodeType": "ExpressionStatement",
                   "src": "773:44:21"
                 },
                 {
                   "expression": {
-                    "id": 4174,
+                    "id": 4197,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2655,24 +2654,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4169,
+                          "id": 4192,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "824:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4171,
+                        "id": 4194,
                         "indexExpression": {
-                          "id": 4170,
+                          "id": 4193,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4145,
+                          "referencedDeclaration": 4168,
                           "src": "830:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2686,18 +2685,18 @@
                         "nodeType": "IndexAccess",
                         "src": "824:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4172,
+                      "id": 4195,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "isLoggedIn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4077,
+                      "referencedDeclaration": 4100,
                       "src": "824:26:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2708,7 +2707,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "74727565",
-                      "id": 4173,
+                      "id": 4196,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2728,13 +2727,13 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 4175,
+                  "id": 4198,
                   "nodeType": "ExpressionStatement",
                   "src": "824:33:21"
                 },
                 {
                   "expression": {
-                    "id": 4182,
+                    "id": 4205,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2742,24 +2741,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4176,
+                          "id": 4199,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "864:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4178,
+                        "id": 4201,
                         "indexExpression": {
-                          "id": 4177,
+                          "id": 4200,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4145,
+                          "referencedDeclaration": 4168,
                           "src": "870:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2773,18 +2772,18 @@
                         "nodeType": "IndexAccess",
                         "src": "864:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4179,
+                      "id": 4202,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "date",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4079,
+                      "referencedDeclaration": 4102,
                       "src": "864:20:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2795,7 +2794,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 4180,
+                        "id": 4203,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2806,7 +2805,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 4181,
+                      "id": 4204,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2825,7 +2824,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4183,
+                  "id": 4206,
                   "nodeType": "ExpressionStatement",
                   "src": "864:38:21"
                 },
@@ -2835,24 +2834,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 4185,
+                            "id": 4208,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4085,
+                            "referencedDeclaration": 4108,
                             "src": "937:5:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                               "typeString": "mapping(address => struct User.UserType storage ref)"
                             }
                           },
-                          "id": 4187,
+                          "id": 4210,
                           "indexExpression": {
-                            "id": 4186,
+                            "id": 4209,
                             "name": "_address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4145,
+                            "referencedDeclaration": 4168,
                             "src": "943:8:21",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -2866,18 +2865,18 @@
                           "nodeType": "IndexAccess",
                           "src": "937:15:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                            "typeIdentifier": "t_struct$_UserType_$4103_storage",
                             "typeString": "struct User.UserType storage ref"
                           }
                         },
-                        "id": 4188,
+                        "id": 4211,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "addr",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4075,
+                        "referencedDeclaration": 4098,
                         "src": "937:20:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2887,24 +2886,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 4189,
+                            "id": 4212,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4085,
+                            "referencedDeclaration": 4108,
                             "src": "966:5:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                               "typeString": "mapping(address => struct User.UserType storage ref)"
                             }
                           },
-                          "id": 4191,
+                          "id": 4214,
                           "indexExpression": {
-                            "id": 4190,
+                            "id": 4213,
                             "name": "_address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4145,
+                            "referencedDeclaration": 4168,
                             "src": "972:8:21",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -2918,18 +2917,18 @@
                           "nodeType": "IndexAccess",
                           "src": "966:15:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                            "typeIdentifier": "t_struct$_UserType_$4103_storage",
                             "typeString": "struct User.UserType storage ref"
                           }
                         },
-                        "id": 4192,
+                        "id": 4215,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isLoggedIn",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4077,
+                        "referencedDeclaration": 4100,
                         "src": "966:26:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -2939,24 +2938,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 4193,
+                            "id": 4216,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4085,
+                            "referencedDeclaration": 4108,
                             "src": "1001:5:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                               "typeString": "mapping(address => struct User.UserType storage ref)"
                             }
                           },
-                          "id": 4195,
+                          "id": 4218,
                           "indexExpression": {
-                            "id": 4194,
+                            "id": 4217,
                             "name": "_address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4145,
+                            "referencedDeclaration": 4168,
                             "src": "1007:8:21",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -2970,18 +2969,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1001:15:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                            "typeIdentifier": "t_struct$_UserType_$4103_storage",
                             "typeString": "struct User.UserType storage ref"
                           }
                         },
-                        "id": 4196,
+                        "id": 4219,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "date",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4079,
+                        "referencedDeclaration": 4102,
                         "src": "1001:20:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3004,18 +3003,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 4184,
+                      "id": 4207,
                       "name": "UserLoginLog",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4097,
+                      "referencedDeclaration": 4120,
                       "src": "916:12:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_bool_$_t_uint256_$returns$__$",
                         "typeString": "function (address,bool,uint256)"
                       }
                     },
-                    "id": 4197,
+                    "id": 4220,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3030,14 +3029,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4198,
+                  "id": 4221,
                   "nodeType": "EmitStatement",
                   "src": "911:117:21"
                 },
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 4199,
+                    "id": 4222,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -3051,15 +3050,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 4149,
-                  "id": 4200,
+                  "functionReturnParameters": 4172,
+                  "id": 4223,
                   "nodeType": "Return",
                   "src": "1035:11:21"
                 }
               ]
             },
             "functionSelector": "35a6861a",
-            "id": 4202,
+            "id": 4225,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3067,17 +3066,17 @@
             "nameLocation": "670:5:21",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4146,
+              "id": 4169,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4145,
+                  "id": 4168,
                   "mutability": "mutable",
                   "name": "_address",
                   "nameLocation": "684:8:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4202,
+                  "scope": 4225,
                   "src": "676:16:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3086,7 +3085,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4144,
+                    "id": 4167,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "676:7:21",
@@ -3102,17 +3101,17 @@
               "src": "675:18:21"
             },
             "returnParameters": {
-              "id": 4149,
+              "id": 4172,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4148,
+                  "id": 4171,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4202,
+                  "scope": 4225,
                   "src": "710:4:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3121,7 +3120,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4147,
+                    "id": 4170,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "710:4:21",
@@ -3135,7 +3134,7 @@
               ],
               "src": "709:6:21"
             },
-            "scope": 4262,
+            "scope": 4285,
             "src": "661:391:21",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3143,7 +3142,7 @@
           },
           {
             "body": {
-              "id": 4260,
+              "id": 4283,
               "nodeType": "Block",
               "src": "1114:336:21",
               "statements": [
@@ -3155,7 +3154,7 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 4216,
+                        "id": 4239,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3163,24 +3162,24 @@
                         "leftExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4210,
+                              "id": 4233,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4085,
+                              "referencedDeclaration": 4108,
                               "src": "1129:5:21",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                                 "typeString": "mapping(address => struct User.UserType storage ref)"
                               }
                             },
-                            "id": 4212,
+                            "id": 4235,
                             "indexExpression": {
-                              "id": 4211,
+                              "id": 4234,
                               "name": "_address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4204,
+                              "referencedDeclaration": 4227,
                               "src": "1135:8:21",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -3194,18 +3193,18 @@
                             "nodeType": "IndexAccess",
                             "src": "1129:15:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                              "typeIdentifier": "t_struct$_UserType_$4103_storage",
                               "typeString": "struct User.UserType storage ref"
                             }
                           },
-                          "id": 4213,
+                          "id": 4236,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "addr",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4075,
+                          "referencedDeclaration": 4098,
                           "src": "1129:20:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -3216,7 +3215,7 @@
                         "operator": "==",
                         "rightExpression": {
                           "expression": {
-                            "id": 4214,
+                            "id": 4237,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -3227,7 +3226,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 4215,
+                          "id": 4238,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3254,7 +3253,7 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 4209,
+                      "id": 4232,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -3268,7 +3267,7 @@
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 4217,
+                    "id": 4240,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3283,7 +3282,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4218,
+                  "id": 4241,
                   "nodeType": "ExpressionStatement",
                   "src": "1121:43:21"
                 },
@@ -3295,7 +3294,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 4225,
+                        "id": 4248,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3303,24 +3302,24 @@
                         "leftExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4220,
+                              "id": 4243,
                               "name": "users",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4085,
+                              "referencedDeclaration": 4108,
                               "src": "1179:5:21",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                                 "typeString": "mapping(address => struct User.UserType storage ref)"
                               }
                             },
-                            "id": 4222,
+                            "id": 4245,
                             "indexExpression": {
-                              "id": 4221,
+                              "id": 4244,
                               "name": "_address",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4204,
+                              "referencedDeclaration": 4227,
                               "src": "1185:8:21",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -3334,18 +3333,18 @@
                             "nodeType": "IndexAccess",
                             "src": "1179:15:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                              "typeIdentifier": "t_struct$_UserType_$4103_storage",
                               "typeString": "struct User.UserType storage ref"
                             }
                           },
-                          "id": 4223,
+                          "id": 4246,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "isLoggedIn",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4077,
+                          "referencedDeclaration": 4100,
                           "src": "1179:26:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -3356,7 +3355,7 @@
                         "operator": "==",
                         "rightExpression": {
                           "hexValue": "74727565",
-                          "id": 4224,
+                          "id": 4247,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3384,7 +3383,7 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 4219,
+                      "id": 4242,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -3398,7 +3397,7 @@
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 4226,
+                    "id": 4249,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3413,13 +3412,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4227,
+                  "id": 4250,
                   "nodeType": "ExpressionStatement",
                   "src": "1171:43:21"
                 },
                 {
                   "expression": {
-                    "id": 4233,
+                    "id": 4256,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3427,24 +3426,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4228,
+                          "id": 4251,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "1221:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4230,
+                        "id": 4253,
                         "indexExpression": {
-                          "id": 4229,
+                          "id": 4252,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4204,
+                          "referencedDeclaration": 4227,
                           "src": "1227:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -3458,18 +3457,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1221:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4231,
+                      "id": 4254,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "isLoggedIn",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4077,
+                      "referencedDeclaration": 4100,
                       "src": "1221:26:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -3480,7 +3479,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "66616c7365",
-                      "id": 4232,
+                      "id": 4255,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -3500,13 +3499,13 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 4234,
+                  "id": 4257,
                   "nodeType": "ExpressionStatement",
                   "src": "1221:34:21"
                 },
                 {
                   "expression": {
-                    "id": 4241,
+                    "id": 4264,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3514,24 +3513,24 @@
                     "leftHandSide": {
                       "expression": {
                         "baseExpression": {
-                          "id": 4235,
+                          "id": 4258,
                           "name": "users",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4085,
+                          "referencedDeclaration": 4108,
                           "src": "1262:5:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                             "typeString": "mapping(address => struct User.UserType storage ref)"
                           }
                         },
-                        "id": 4237,
+                        "id": 4260,
                         "indexExpression": {
-                          "id": 4236,
+                          "id": 4259,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4204,
+                          "referencedDeclaration": 4227,
                           "src": "1268:8:21",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -3545,18 +3544,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1262:15:21",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                          "typeIdentifier": "t_struct$_UserType_$4103_storage",
                           "typeString": "struct User.UserType storage ref"
                         }
                       },
-                      "id": 4238,
+                      "id": 4261,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "date",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4079,
+                      "referencedDeclaration": 4102,
                       "src": "1262:20:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3567,7 +3566,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 4239,
+                        "id": 4262,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -3578,7 +3577,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 4240,
+                      "id": 4263,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3597,7 +3596,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4242,
+                  "id": 4265,
                   "nodeType": "ExpressionStatement",
                   "src": "1262:38:21"
                 },
@@ -3607,24 +3606,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 4244,
+                            "id": 4267,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4085,
+                            "referencedDeclaration": 4108,
                             "src": "1335:5:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                               "typeString": "mapping(address => struct User.UserType storage ref)"
                             }
                           },
-                          "id": 4246,
+                          "id": 4269,
                           "indexExpression": {
-                            "id": 4245,
+                            "id": 4268,
                             "name": "_address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4204,
+                            "referencedDeclaration": 4227,
                             "src": "1341:8:21",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -3638,18 +3637,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1335:15:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                            "typeIdentifier": "t_struct$_UserType_$4103_storage",
                             "typeString": "struct User.UserType storage ref"
                           }
                         },
-                        "id": 4247,
+                        "id": 4270,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "addr",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4075,
+                        "referencedDeclaration": 4098,
                         "src": "1335:20:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -3659,24 +3658,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 4248,
+                            "id": 4271,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4085,
+                            "referencedDeclaration": 4108,
                             "src": "1364:5:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                               "typeString": "mapping(address => struct User.UserType storage ref)"
                             }
                           },
-                          "id": 4250,
+                          "id": 4273,
                           "indexExpression": {
-                            "id": 4249,
+                            "id": 4272,
                             "name": "_address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4204,
+                            "referencedDeclaration": 4227,
                             "src": "1370:8:21",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -3690,18 +3689,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1364:15:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                            "typeIdentifier": "t_struct$_UserType_$4103_storage",
                             "typeString": "struct User.UserType storage ref"
                           }
                         },
-                        "id": 4251,
+                        "id": 4274,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isLoggedIn",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4077,
+                        "referencedDeclaration": 4100,
                         "src": "1364:26:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -3711,24 +3710,24 @@
                       {
                         "expression": {
                           "baseExpression": {
-                            "id": 4252,
+                            "id": 4275,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4085,
+                            "referencedDeclaration": 4108,
                             "src": "1399:5:21",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4080_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_UserType_$4103_storage_$",
                               "typeString": "mapping(address => struct User.UserType storage ref)"
                             }
                           },
-                          "id": 4254,
+                          "id": 4277,
                           "indexExpression": {
-                            "id": 4253,
+                            "id": 4276,
                             "name": "_address",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4204,
+                            "referencedDeclaration": 4227,
                             "src": "1405:8:21",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -3742,18 +3741,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1399:15:21",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_UserType_$4080_storage",
+                            "typeIdentifier": "t_struct$_UserType_$4103_storage",
                             "typeString": "struct User.UserType storage ref"
                           }
                         },
-                        "id": 4255,
+                        "id": 4278,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "date",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4079,
+                        "referencedDeclaration": 4102,
                         "src": "1399:20:21",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3776,18 +3775,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 4243,
+                      "id": 4266,
                       "name": "UserLoginLog",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4097,
+                      "referencedDeclaration": 4120,
                       "src": "1314:12:21",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_bool_$_t_uint256_$returns$__$",
                         "typeString": "function (address,bool,uint256)"
                       }
                     },
-                    "id": 4256,
+                    "id": 4279,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3802,14 +3801,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4257,
+                  "id": 4280,
                   "nodeType": "EmitStatement",
                   "src": "1309:117:21"
                 },
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 4258,
+                    "id": 4281,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -3823,15 +3822,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 4208,
-                  "id": 4259,
+                  "functionReturnParameters": 4231,
+                  "id": 4282,
                   "nodeType": "Return",
                   "src": "1433:11:21"
                 }
               ]
             },
             "functionSelector": "cc51f9b9",
-            "id": 4261,
+            "id": 4284,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3839,17 +3838,17 @@
             "nameLocation": "1067:6:21",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4205,
+              "id": 4228,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4204,
+                  "id": 4227,
                   "mutability": "mutable",
                   "name": "_address",
                   "nameLocation": "1082:8:21",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4261,
+                  "scope": 4284,
                   "src": "1074:16:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3858,7 +3857,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4203,
+                    "id": 4226,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1074:7:21",
@@ -3874,17 +3873,17 @@
               "src": "1073:18:21"
             },
             "returnParameters": {
-              "id": 4208,
+              "id": 4231,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4207,
+                  "id": 4230,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4261,
+                  "scope": 4284,
                   "src": "1108:4:21",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3893,7 +3892,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4206,
+                    "id": 4229,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "1108:4:21",
@@ -3907,14 +3906,14 @@
               ],
               "src": "1107:6:21"
             },
-            "scope": 4262,
+            "scope": 4285,
             "src": "1058:392:21",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 4263,
+        "scope": 4286,
         "src": "75:1378:21",
         "usedErrors": []
       }
@@ -3929,8 +3928,8 @@
     "15": {
       "events": {},
       "links": {},
-      "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
-      "transactionHash": "0xa24ddc8606c46a62d53e4f4fb6bf7deff092c809461c62983305a30ec4e708dd"
+      "address": "0x43955Ad6435802BDd8587B0793613CEC8bd95888",
+      "transactionHash": "0x125ca0c945ee6fafb4d5ec6e4a1e8764ae2d1bc771e697d1e51380ea130841f6"
     },
     "5777": {
       "events": {},
@@ -4009,8 +4008,7 @@
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-30T01:28:41.676Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-06-30T08:00:24.680Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

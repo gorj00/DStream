@@ -42,3 +42,24 @@ dataSources:
         - event: VideoEntryAdded(uint256,string,uint256,address,uint256)
           handler: handleUserLoginLog
       file: ./graph/mappings/user.mapping.ts
+  - kind: ethereum/contract
+    name: DStreamToken
+    network: mainnet # always mainnet
+    source:
+      address: '0xB51a278FB2d92089866c701DF0DcE745433580bf'
+      abi: DStreamToken       # startBlock: x
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - StreamRewardLog
+      abis:
+        - name: DStreamToken
+          file: ./abis/DStreamToken.json
+        - name: Video
+          file: ./abis/Video.json
+      eventHandlers:
+        - event: StreamRewardLogAdded(address,uint256,uint256,uint256,uint256)
+          handler: handleStreamRewardLog
+      file: ./graph/mappings/dstream-token.mappings.ts

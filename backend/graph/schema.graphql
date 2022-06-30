@@ -12,3 +12,11 @@ type Video @entity {
   uploader: String!
   projectId: Int!
 }
+
+type StreamRewardLog @entity {
+  id: Bytes!
+  user: String!
+  video: Video!
+  date: Int!
+  amount: Int!
+}
