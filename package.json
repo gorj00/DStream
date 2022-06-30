@@ -1,19 +1,25 @@
 {
-    "name": "dstream",
-    "version": "1.0.0",
-    "private": true,
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gorj00/DStream.git"
-    },
-    "author": "Jan Gorol",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/gorj00/DStream/issues"
-    },
-    "homepage": "https://github.com/gorj00/DStream#readme",
-    "devDependencies": {
-      "lerna": "^5.0.0"
-    }, 
-    "workspaces": ["@dstream/ethereum/*, @dstream/frontend/*, @dstream/dev/*"]
+  "name": "dstream",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorj00/DStream.git"
+  },
+  "author": "Jan Gorol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gorj00/DStream/issues"
+  },
+  "homepage": "https://github.com/gorj00/DStream#readme",
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  },
+  "workspaces": [
+    "@dstream/ethereum/*, @dstream/frontend/*, @dstream/dev/*"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.4.0"
   }
+}

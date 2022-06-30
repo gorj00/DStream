@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {  tmdb } from './data-mock'
+import { tmdb } from './data-mock'
 import './gallery.css'
 import classnames from "classnames"
 // import 'bootstrap/dist/css/bootstrap.min.css'
@@ -137,7 +137,7 @@ const VideoGallery = () => {
               </Row>
               <Row>
                 {tmdb.slice(0, 30).map((movie, i) => (
-                  <Col md='3' sm='6' xs='12' className="pr-1 pb-2">
+                  <Col md='3' sm='6' xs='12' className="pr-1 pb-2" key={i}>
                     <SingleVideoPoster
                       key={i}
                       posterUrl={movie.poster_path}

@@ -121,7 +121,7 @@ export default function ContentNavbar() {
             </Row>
           </div>
           <Nav navbar>
-            <NavItem className="p-0 pr-2">
+            {/* <NavItem className="p-0 pr-2">
               <NavLink
                 data-placement="bottom"
                 to="/wallet"
@@ -130,7 +130,7 @@ export default function ContentNavbar() {
                 <i className="tim-icons icon-wallet-43" />
                 Wallet
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem className="p-0 pr-2">
               <NavLink
                 data-placement="bottom"
@@ -144,7 +144,7 @@ export default function ContentNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                to="/video-gallery"
+                to="/new-content"
                 tag={Link}
               >
                 <i className="tim-icons icon-spaceship" />
